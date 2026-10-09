@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "version": "additive-m3-v1",
+  "hash_normalization": "CRLF to LF bytes",
+  "original_freeze_sha256": "77e06f3df9167d6f8b235cd2ff40afa69a9a9f9f868da6bfb7e06d04a4be7562",
+  "files": {
+    "acceptance/__init__.py": "3ce1827baa4c8ed90a6346c2bade9d123eb033164ad0948f8ac6366895c5c484",
+    "acceptance/audit.py": "acad5943566c763552f2edb2780b241dcf79f5bbf29f2933b92be3fc037084a8",
+    "acceptance/checkpoint.py": "17d56405e0302a3064fcf152667d9898a6e9d10997108734fa717e68d715949a",
+    "acceptance/sensitivity.py": "20da8083fcb936e84d3dfa74f00fd5ccc22d15e6ea2dabb1e40e60339c0d1929",
+    "acceptance/stress.py": "bcf93e302ab5a22e5c1c3d722721bfb78f3f1a1e0454765f0da5bec21c19e365",
+    "acceptance/tests/test_final.py": "52001ace4446c9974ee63d866c8072e5562beea7724685b41d2da3894f977752"
+  }
+}
