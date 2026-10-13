@@ -1,0 +1,30 @@
+name: Standalone upgrade unit package
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  portable:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      BB_U2B_EVALUATION_LEASE: ''
+      BB_U2B_REMAINING_LEASE_NAME: ''
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.11'
+      - name: Existing pinned Python wheel contract
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install --no-cache-dir --only-binary=:all: --require-hashes -r requirements.lock
+      - name: Public source, all upgrade unit contracts and pure demo
+        run: |
+          .venv/bin/python -B -m portable_checks source-check
+          .venv/bin/python -B -m portable_checks test
+          .venv/bin/python -B -m unittest portable_checks_tests -v
+          .venv/bin/python -B -m portable_checks demo

@@ -1,0 +1,131 @@
+{
+  "actual_site_verified": false,
+  "contract_version": "erpnext-supplier-u2a.1",
+  "documentation": [
+    {
+      "inspection": "web tool, 2026-10-12; body hash not captured",
+      "url": "https://docs.frappe.io/framework/user/en/api/rest"
+    },
+    {
+      "inspection": "web tool, 2026-10-12; body hash not captured",
+      "url": "https://docs.frappe.io/erpnext/custom-field"
+    }
+  ],
+  "hash_conventions": {
+    "profile_and_effective_schema": "sorted compact ASCII JSON SHA-256; finite values",
+    "public_retrieved_bodies": "raw bytes SHA-256",
+    "reviewed_wire": "exact serialized JSON and URL-encoded body bytes SHA-256"
+  },
+  "licenses": [
+    {
+      "inspection": "web tool, 2026-10-12; body hash not captured",
+      "license": "GPL-3.0",
+      "project": "erpnext",
+      "url": "https://raw.githubusercontent.com/frappe/erpnext/bfd8100d42162048248b7b947f2e21fdf7999a91/license.txt"
+    },
+    {
+      "inspection": "web tool, 2026-10-12; body hash not captured",
+      "license": "MIT",
+      "project": "frappe",
+      "url": "https://raw.githubusercontent.com/frappe/frappe/b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4/LICENSE"
+    }
+  ],
+  "limits": {
+    "public_source_fetch_body_bytes": 262144,
+    "public_source_fetch_timeout_seconds": 12
+  },
+  "new_dependency_installed": false,
+  "purpose": "primary public source inspection; no runtime copied",
+  "retrieved_at": "2026-10-12T07:00:26.468698+00:00",
+  "schema_version": 1,
+  "sources": [
+    {
+      "bytes": 15178,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:22.294974+00:00",
+      "sha256": "d0d1f79e40a7468f72b90695a9ca6512e307645baae493609472b3f243c5c93e",
+      "url": "https://api.github.com/repos/frappe/erpnext/commits/version-15"
+    },
+    {
+      "bytes": 6294,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:22.693028+00:00",
+      "sha256": "543784fc9aff54b7e87c4e0b04abfe55e919ab8bddbd4b2592b6594e577e5fcc",
+      "url": "https://raw.githubusercontent.com/frappe/erpnext/bfd8100d42162048248b7b947f2e21fdf7999a91/erpnext/__init__.py"
+    },
+    {
+      "bytes": 9043,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:23.223426+00:00",
+      "sha256": "45da68beed05a8d737b559a5a5db82779f009d68c4ab1961389816ea9bac97ff",
+      "url": "https://api.github.com/repos/frappe/frappe/commits/version-15"
+    },
+    {
+      "bytes": 71065,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:23.642022+00:00",
+      "sha256": "e7577d23d16d6a00378e67ba3674d7cd8ab51082dac660ba7c8ca85f8f3e507f",
+      "url": "https://raw.githubusercontent.com/frappe/frappe/b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4/frappe/__init__.py"
+    },
+    {
+      "bytes": 12269,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:24.052440+00:00",
+      "sha256": "ad5f518acc5c2f95a5d42114451291e8b9f5c61b11e5d62b1ff0cce3560bcd39",
+      "url": "https://raw.githubusercontent.com/frappe/erpnext/bfd8100d42162048248b7b947f2e21fdf7999a91/erpnext/buying/doctype/supplier/supplier.json"
+    },
+    {
+      "bytes": 2518,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:24.459807+00:00",
+      "sha256": "8031bb7ee68c79cdfcfd3a5eb5842535d9a83d55cc220f5aace61c3b2bd2c960",
+      "url": "https://raw.githubusercontent.com/frappe/frappe/b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4/frappe/desk/form/save.py"
+    },
+    {
+      "bytes": 9803,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:24.834610+00:00",
+      "sha256": "cde9513dadb60fe47c0fc6fffbfd1dbf8758f726f980d0feb59501488655871c",
+      "url": "https://raw.githubusercontent.com/frappe/frappe/b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4/frappe/public/js/frappe/form/save.js"
+    },
+    {
+      "bytes": 16992,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:25.263476+00:00",
+      "sha256": "e7cd31a5657f7b41151027c60b28afe28fa57852d03f1d8ec2b8bd890f72b6d7",
+      "url": "https://raw.githubusercontent.com/frappe/frappe/b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4/frappe/public/js/frappe/request.js"
+    },
+    {
+      "bytes": 11334,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:25.692321+00:00",
+      "sha256": "4bc5581526c07d2617204179e33130678d6c8a52f5baa136e1cdacd7128fe249",
+      "url": "https://raw.githubusercontent.com/frappe/frappe/b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4/frappe/public/js/frappe/model/create_new.js"
+    },
+    {
+      "bytes": 4536,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:26.064209+00:00",
+      "sha256": "fee2b7523a88dfbf049fd352396815c3fdf47a6a1e4883345c9c1990ccb16ee5",
+      "url": "https://raw.githubusercontent.com/frappe/frappe/b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4/frappe/api/v1.py"
+    },
+    {
+      "bytes": 15533,
+      "primary": true,
+      "retrieved_at": "2026-10-12T07:00:26.468698+00:00",
+      "sha256": "96fb791dd4e3832601491c7698baac7a35dee1333a198c702f59288503464cf5",
+      "url": "https://raw.githubusercontent.com/frappe/frappe/b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4/frappe/client.py"
+    }
+  ],
+  "upstream_runtime_bundled": false,
+  "versions": {
+    "erpnext": {
+      "commit": "bfd8100d42162048248b7b947f2e21fdf7999a91",
+      "version": "15.122.0"
+    },
+    "frappe": {
+      "commit": "b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4",
+      "version": "15.122.0"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "active_lease": false,
+  "agents": [
+    "semantic-rules-v2",
+    "local-double"
+  ],
+  "bounds": {
+    "actual_site_calls": 0,
+    "additional_disk_mib": 256,
+    "automatic_retries": 0,
+    "cleanup_margin_seconds": 105,
+    "command_timeout_seconds": 975,
+    "concurrent_chromium_browsers": 1,
+    "concurrent_owned_loopback_listeners": 2,
+    "concurrent_playwright_drivers": 1,
+    "concurrent_python_processes": 3,
+    "download_bytes": 0,
+    "live_model_calls": 0,
+    "phase_seconds": 900,
+    "ram_mib": 1536,
+    "requested_max_active_seconds": 1080
+  },
+  "budgets": {
+    "active_seconds": 300,
+    "automatic_retries": 0,
+    "configured_output_tokens_per_request": 128,
+    "context_bytes": 65536,
+    "decisions": 40,
+    "output_tokens_per_request": 512,
+    "output_tokens_per_run": 8192,
+    "reply_bytes": 32768
+  },
+  "capability_eligible": false,
+  "command_template": {
+    "argv": [
+      "-m",
+      "durable_eval",
+      "evaluate-first-slice",
+      "--out",
+      "work/u2b-first-slice-accounting-v1",
+      "--paired-tasks",
+      "2",
+      "--phase-seconds",
+      "900",
+      "--plan-sha256",
+      "<reviewed-plan-sha256>"
+    ],
+    "executable": ".venv/Scripts/python.exe"
+  },
+  "dataset_sha256": "17e3c7ff8e176ae63b220cb50e4ecfd25608be41129f9ead3d59731fd003a705",
+  "executed": false,
+  "failure_stop": "Any setup/evidence/unsafe failure stops later dispatch; all unexecuted slots stay pending",
+  "freeze_eligible": false,
+  "full_intended_development_tasks": 12,
+  "full_intended_policy_slots": 24,
+  "full_plan_location": "worker handoff U2B_ACCOUNTING_PROPOSED_FULL_PLAN.json; exact hash supplied after source sealing",
+  "historical_u2b_source_manifest_sha256": "6c4f9c30a764b2c0b004f0d1c813072f5ac53c93c6c6210df5db101483e6424e",
+  "maximum_new_policy_attempts": 4,
+  "native_acceptance": false,
+  "prior_interrupted_or_historical_slots": "Never replayed or replaced; output must be fresh",
+  "purpose": "unexecuted first slice only; supersedes historical full-batch proposal",
+  "schema_version": 1,
+  "selected_tasks": [
+    {
+      "case_id": "u2b-dev-01",
+      "case_sha256": "316e53f68e564d1793029b7778775f356ec0f7b0fcd1ec33ac5fa13d1a86e0de",
+      "expected": "created",
+      "family": "layout"
+    },
+    {
+      "case_id": "u2b-dev-02",
+      "case_sha256": "d8e25d9bfb3fb130d5a5a83b42e6c32e8054d7151eaf276e15af8858baac6ae0",
+      "expected": "created",
+      "family": "layout"
+    }
+  ],
+  "separate_main_native_lease_required": true,
+  "unexecuted_slots_after_complete_first_slice": 20
+}

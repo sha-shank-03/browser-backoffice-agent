@@ -1,0 +1,82 @@
+{
+  "actor_collector_gold_budget_approval_changes": false,
+  "agent": "local-double",
+  "baseline_comparison_eligible": false,
+  "bounds": {
+    "actual_site_calls": 0,
+    "additional_disk_mib": 256,
+    "automatic_retries": 0,
+    "cleanup_margin_seconds": 105,
+    "command_timeout_seconds": 975,
+    "concurrent_chromium_browsers": 1,
+    "concurrent_playwright_drivers": 1,
+    "diagnostic_bytes_per_run": 131072,
+    "diagnostic_records_per_run": 82,
+    "downloads": 0,
+    "live_model_calls": 0,
+    "max_java_processes": 0,
+    "max_owned_loopback_listeners": 2,
+    "max_owned_processes": 16,
+    "max_owned_python_processes": 4,
+    "max_python_including_main_recorder": 5,
+    "phase_seconds": 900,
+    "post_failure_dom_probe_timeout_ms": 200,
+    "ram_mib": 1536,
+    "requested_max_active_seconds": 1080
+  },
+  "case_id": "u2b-dev-02",
+  "command_template": {
+    "argv": [
+      "-B",
+      "-m",
+      "details_continuation",
+      "run-local-double",
+      "--out",
+      "work/u2b-dev02-details-local-continuation-v1",
+      "--plan-sha256",
+      "<reviewed-plan-sha256>"
+    ],
+    "executable": ".venv/Scripts/python.exe"
+  },
+  "executed": false,
+  "execution_id": "dev02-details-local-continuation-01",
+  "fixed_cached_runtime": {
+    "browser_cache": ".cache/ms-playwright",
+    "chromium_records": [
+      {
+        "browserVersion": "153.0.8010.12",
+        "installByDefault": true,
+        "name": "chromium-headless-shell",
+        "revision": "1243",
+        "title": "Chrome Headless Shell"
+      }
+    ],
+    "installed_browser_manifest_sha256": "545d52f8382c391e605562c330e9c1c534a16045898203037a49bb8bd769a946",
+    "new_runtime_or_download": false,
+    "playwright": "1.63.0",
+    "python": "Existing Python3.11 venv, launcher and interpreter preserved",
+    "requirements_lock_sha256": "c6e5cb897a26a24bccd833cb53be9355ec86995e17b54f167e0139535fdd32ba"
+  },
+  "full24_cohort_implemented_or_authorized": false,
+  "main_recorder_role": "One separately owned recorder; excluded from owned process/Python caps, included in RSS and five-Python total",
+  "maximum_new_actor_starts": 1,
+  "native_collector_fix_verified": false,
+  "new_task_population": false,
+  "new_unique_tasks": 0,
+  "purpose": "Only never-started dev02 local-double continuation",
+  "python_roles": [
+    "runner_venv_launcher",
+    "runner_interpreter",
+    "portal_venv_launcher",
+    "portal_interpreter"
+  ],
+  "quality_acceptance": false,
+  "reconciliation_policy_slots": 2,
+  "resource_increase_granted": false,
+  "resource_scope": "16 total owned processes excluding recorder; RSS includes recorder; sampled evidence is not a lifetime peak guarantee",
+  "retained_partial_pending_slots": 1,
+  "retained_unknown_slots": 1,
+  "retry_unknown_or_attempted_slots": false,
+  "schema_version": 1,
+  "separate_main_lease_required": true
+}

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "details_eval/__init__.py": "21da138af7bbc2bede22890674b928438cefffc0fa426ede6d23ee0a0dcd4746",
+    "details_eval/__main__.py": "83c1b8a38e235687fe5b4b577685d942568f64a1c105e20a47e69ea64607a047",
+    "details_eval/browser.py": "0ea4c44c4ecb6fc7ee16a81ab79b2c590f6e49cf0e7b35391eb42f1952e490a1",
+    "details_eval/collector.js": "98121f1f2016e212ba67b1d1da9f852a0e86efc6c6b3f3a92684df61aedf3591",
+    "details_eval/native.py": "1575775b9020b64c16339c05565d92c5cb023105cba6dbcecfa5d934e0a92593",
+    "details_eval/repeat.py": "84acc94eaba4eb3d104baba6ffccdf6f8fe2e51f9c5d5ac94c670c8b2628aede",
+    "details_eval/source_check.py": "f27ffe6eeb022498c416b883c81de63d3ea52a827dd792bc51a2b2c71339abee",
+    "details_eval_data/future_verification.json": "6e4e65db1d07126a59365131d2cd919d1297b1b4672fc5f499f46c5ef1aa9978",
+    "details_eval_data/lineage.json": "e5e641bf9a7213a9f976544bd2807b7d9eedc579144b03550e27d27b4b9490a2",
+    "details_eval_tests/__init__.py": "41cfd134e2e980905d83d0f0b2b3ed2a0f3ac786b7a4b0c551f947d16a4c6ddc",
+    "details_eval_tests/test_collector.js": "e27f8e2a05ee78c4bb8362fe36b55e39cafe06c244d5f00b0c99ff49df47f238",
+    "details_eval_tests/test_contract.py": "719b8bbd1ac1d9b1657de9b133847c9d57444e61b7cf9ae2835becd7aa1b856a",
+    "docs/U2B_DETAILS_COLLECTOR.md": "2b882cb368bef85e05ff9ee1836ed0ec5598628a8b4b784cfa6f698e36997e76"
+  },
+  "hash_normalization": "CRLF to LF bytes",
+  "native_collector_fix_verified": false,
+  "new_native_execution": false,
+  "preserved_manifests": {
+    "acceptance/checkpoint.json": "7e8eeab76d2801d244f553cc3c463dab654d691f4cfe3d40770317ef302d81ad",
+    "evaluation/heldout-freeze.json": "2ffaf42d86dffa7923927b957fe6b9cd4f09e9708ea427be1d492bd332a133b9",
+    "u1-source-manifest.json": "19b5ecf67098e5359fab50be4091ebb8f93e36417aa61eb0eba00e5fd5ecd9e3",
+    "u2a-source-manifest.json": "7700bd47c99c7f6e99c974d7ce7a4fde440ad6d38064675b3ff046d45d6cd493",
+    "u2b-accounting-source-manifest.json": "48fefb588a3e761b52b23c2bbba7b21a635670d4a87ede9e8757bfcf6d9c86b9",
+    "u2b-diagnostics-source-manifest.json": "72af7b0bdb068d9158747ea55dc92d6139c7cbf2b6f1c4c51e4cfd36ba69f6f3",
+    "u2b-source-manifest.json": "6c4f9c30a764b2c0b004f0d1c813072f5ac53c93c6c6210df5db101483e6424e"
+  },
+  "purpose": "Collector candidate source/pure seal; no native fix/quality acceptance",
+  "quality_acceptance": false,
+  "schema_version": 1,
+  "version": "fresh-local-u2b-details.1"
+}

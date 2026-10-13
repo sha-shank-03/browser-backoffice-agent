@@ -1,0 +1,27 @@
+name: U2-B exposed pure contracts
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  pure:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      BB_U2B_EVALUATION_LEASE: ''
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.11'
+      - name: Restore existing exact Python dependency contract
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install --no-cache-dir --only-binary=:all: --require-hashes -r requirements.lock
+      - name: Guarded pure tests and additive hashes
+        run: |
+          .venv/bin/python -m unittest discover -s fresh_eval_tests -v
+          .venv/bin/python -m fresh_eval source-check

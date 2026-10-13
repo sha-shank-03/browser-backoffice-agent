@@ -1,0 +1,141 @@
+{
+  "bounds": {
+    "actual_site_calls": 0,
+    "additional_disk_mib": 256,
+    "automatic_retries": 0,
+    "capability_phase_seconds": 1800,
+    "command_timeout_sum_seconds": 3010,
+    "concurrent_chromium_browsers": 1,
+    "concurrent_owned_loopback_listeners": 2,
+    "concurrent_playwright_drivers": 1,
+    "concurrent_python_processes": 3,
+    "development_phase_seconds": 900,
+    "live_model_calls": 0,
+    "package_or_browser_download_bytes": 0,
+    "ram_mib": 1536,
+    "remaining_cleanup_margin_seconds": 110,
+    "requested_max_active_seconds": 3120
+  },
+  "commands": [
+    {
+      "argv": [
+        "-m",
+        "fresh_eval",
+        "source-check"
+      ],
+      "executable": ".venv/Scripts/python.exe",
+      "executed_by_worker": false,
+      "expected_exit": 0,
+      "order": 1,
+      "timeout_seconds": 20
+    },
+    {
+      "argv": [
+        "-m",
+        "fresh_eval",
+        "evaluate",
+        "--suite",
+        "development-v2",
+        "--out",
+        "work/u2b-development-main-01",
+        "--phase-seconds",
+        "900"
+      ],
+      "executable": ".venv/Scripts/python.exe",
+      "executed_by_worker": false,
+      "expected_exit": 0,
+      "order": 2,
+      "timeout_seconds": 975
+    },
+    {
+      "argv": [
+        "-m",
+        "fresh_eval",
+        "freeze",
+        "--development-report",
+        "work/u2b-development-main-01/report.json",
+        "--out",
+        "work/u2b-capability-freeze-main-01.json"
+      ],
+      "executable": ".venv/Scripts/python.exe",
+      "executed_by_worker": false,
+      "expected_exit": 0,
+      "order": 3,
+      "timeout_seconds": 60
+    },
+    {
+      "argv": [
+        "-m",
+        "fresh_eval",
+        "evaluate",
+        "--suite",
+        "capability-v2",
+        "--freeze",
+        "work/u2b-capability-freeze-main-01.json",
+        "--out",
+        "work/u2b-capability-main-01",
+        "--phase-seconds",
+        "1800"
+      ],
+      "executable": ".venv/Scripts/python.exe",
+      "executed_by_worker": false,
+      "expected_exit": 0,
+      "order": 4,
+      "timeout_seconds": 1875
+    },
+    {
+      "argv": [
+        "-m",
+        "fresh_eval",
+        "audit",
+        "--report",
+        "work/u2b-capability-main-01/report.json",
+        "--require-cases",
+        "24"
+      ],
+      "executable": ".venv/Scripts/python.exe",
+      "executed_by_worker": false,
+      "expected_exit": 0,
+      "order": 5,
+      "timeout_seconds": 60
+    },
+    {
+      "argv": [
+        "-m",
+        "fresh_eval",
+        "source-check"
+      ],
+      "executable": ".venv/Scripts/python.exe",
+      "executed_by_worker": false,
+      "expected_exit": 0,
+      "order": 6,
+      "timeout_seconds": 20
+    }
+  ],
+  "environment": {
+    "BB_U2B_EVALUATION_LEASE": "u2b-development-or-capability-explicit-main-lease",
+    "PLAYWRIGHT_BROWSERS_PATH": "<absolute_repository_root>/.cache/ms-playwright"
+  },
+  "environment_note": "The sentinel prevents accidental execution and is not authorization or resource-ownership evidence",
+  "maximum_fresh_browser_runs": {
+    "capability": 48,
+    "development": 24,
+    "note": "Two policies per task, not 72 unique tasks; repeats are zero"
+  },
+  "purpose": "Fresh exposed native development controls, then frozen paired capability evaluation; local fictional site only",
+  "schema_version": 1,
+  "status": "authored_unexecuted_pending_distinct_main_lease",
+  "stop_rules": [
+    "Main grants a new lease; old U1/U2-A leases confer no permission",
+    "Source and 12 native baseline development postconditions must pass before capability freeze",
+    "If development controls fail, retain evidence and stop before freeze; any repair is development-only and requires a new reviewed source receipt",
+    "Capability safe quality losses are retained and do not drop remaining cases; unknown evidence/cleanup or phase exhaustion yields a partial report, never a full pass",
+    "Retain raw exits/logs and source/resource/owned process/listener identities including measurement gaps; independently inspect full SQL state",
+    "No automatic run replay, silent replacement of output/freeze, native crash experiment, live account/model/sandbox call or hidden main set access"
+  ],
+  "unique_tasks": {
+    "capability": 24,
+    "development": 12
+  },
+  "working_directory": "repository_root"
+}

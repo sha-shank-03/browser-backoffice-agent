@@ -1,0 +1,7 @@
+{
+  "mode": "local_double",
+  "model": "fixture/local-double-v1",
+  "endpoint": "http://127.0.0.1:1/v1/chat/completions",
+  "max_output_tokens": 512,
+  "attempt_seconds": 20.0
+}

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "diagnostic_eval/__init__.py": "88c51e35fa8e0f643109da5c3aad6c443011aeb50d221026f560bc4fa73e55e7",
+    "diagnostic_eval/__main__.py": "b7c4e09e4a668cddfcb1d4d21fa2ef85dfb9638f0e94e46950ab2929a9edf75b",
+    "diagnostic_eval/browser.py": "08ef261ad645eb167a09c139b6e0e9afd9112806a2ebec98623324e2749a9abf",
+    "diagnostic_eval/diagnostics.py": "6a2ef3a9f0ec5a755222ba498cde29d3d243ded060c9d6476dfea6e4f53d917f",
+    "diagnostic_eval/native.py": "b908549722f666316764868706a81b8db913a1ac1370475123983c4a12905503",
+    "diagnostic_eval/repeat.py": "41d19809c14f9c3f2f334ee71ef8249c3cd69644a00d72273758fd4a8961f3ec",
+    "diagnostic_eval/source_check.py": "ba68d9b4af1777c6eeea08e59f4577530242fc63ea7de776ef0ab13852490e8b",
+    "diagnostic_eval_data/future_repeat.json": "c154639f129be4eee0b7f69fab2f5e3550c9d30a0f65ff5a1ac12ce2d7e3b388",
+    "diagnostic_eval_data/original_evidence_profile.json": "4c9152afc7d9d2f40431ad10347a80966654ce7c8317f59af35e07fc98e8541c",
+    "diagnostic_eval_tests/__init__.py": "5c2a207eb7b52048da8444921a1a220faa1020905e01cfcfb15bd46660543bfb",
+    "diagnostic_eval_tests/test_diagnostics.py": "3907a63f6fad9241de45251803a1712585f5b66d327a6336031aa73d645cfd70",
+    "docs/U2B_FAILURE_DIAGNOSTICS.md": "35fa8f096fc98df82ad7b457a14020f371474c1d3fa43c3eec35af3c7fdd4e85"
+  },
+  "hash_normalization": "CRLF to LF bytes",
+  "new_native_execution": false,
+  "preserved_manifests": {
+    "acceptance/checkpoint.json": "7e8eeab76d2801d244f553cc3c463dab654d691f4cfe3d40770317ef302d81ad",
+    "evaluation/heldout-freeze.json": "2ffaf42d86dffa7923927b957fe6b9cd4f09e9708ea427be1d492bd332a133b9",
+    "u1-source-manifest.json": "19b5ecf67098e5359fab50be4091ebb8f93e36417aa61eb0eba00e5fd5ecd9e3",
+    "u2a-source-manifest.json": "7700bd47c99c7f6e99c974d7ce7a4fde440ad6d38064675b3ff046d45d6cd493",
+    "u2b-accounting-source-manifest.json": "48fefb588a3e761b52b23c2bbba7b21a635670d4a87ede9e8757bfcf6d9c86b9",
+    "u2b-source-manifest.json": "6c4f9c30a764b2c0b004f0d1c813072f5ac53c93c6c6210df5db101483e6424e"
+  },
+  "purpose": "Diagnostic source/pure seal only; not a business correction, root-cause finding or scoring freeze",
+  "quality_acceptance": false,
+  "root_cause_established": false,
+  "schema_version": 1,
+  "version": "fresh-local-u2b-diagnostics.1"
+}

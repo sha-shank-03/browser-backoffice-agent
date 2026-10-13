@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "contract_version": "erpnext-supplier-u2a.1",
+  "status": "authored_unexecuted_pending_separate_main_lease",
+  "purpose": "Two local fictional contract-double methods; no actual ERPNext site",
+  "working_directory": "repository_root",
+  "prerequisites": [
+    "Main accepts the U2-A source receipt and grants a distinct named local-double lease",
+    "Existing pinned .venv and .cache/ms-playwright only; do not install or download",
+    "Main owns command/process/resource capture and verifies owned cleanup before lease release",
+    "This batch neither authorizes nor enables any actual ERPNext dispatch"
+  ],
+  "environment": {
+    "BB_U2A_LOCAL_DOUBLE_LEASE": "u2a-local-double-and-browser-explicit-main-lease",
+    "PLAYWRIGHT_BROWSERS_PATH": "<absolute_repository_root>/.cache/ms-playwright"
+  },
+  "environment_note": "The sentinel prevents accidental execution. It is not proof of authorization or resource ownership.",
+  "bounds": {
+    "active_seconds": 300,
+    "requested_ram_mib": 768,
+    "additional_disk_mib": 32,
+    "simultaneous_python_processes": 1,
+    "browser_concurrency": 1,
+    "playwright_driver_concurrency": 1,
+    "loopback_listener_concurrency": 1,
+    "actual_site_calls": 0,
+    "live_model_calls": 0,
+    "package_or_browser_download_bytes": 0,
+    "automatic_retries": 0
+  },
+  "commands": [
+    {
+      "order": 1,
+      "executable": ".venv/Scripts/python.exe",
+      "argv": ["-m", "supplier_contract_tests.source_check", "--check"],
+      "expected_exit": 0,
+      "timeout_seconds": 20,
+      "executed": false
+    },
+    {
+      "order": 2,
+      "executable": ".venv/Scripts/python.exe",
+      "argv": ["-m", "unittest", "supplier_contract_tests.future.test_local_double.LocalDoubleTests.test_bounded_supplier_reads_capture_exact_urls_and_empty_eof", "-v"],
+      "expected_exit": 0,
+      "timeout_seconds": 40,
+      "executed": false
+    },
+    {
+      "order": 3,
+      "executable": ".venv/Scripts/python.exe",
+      "argv": ["-m", "unittest", "supplier_contract_tests.future.test_browser_observation.BrowserObservationTests.test_current_dom_references_bind_review_while_dispatch_stays_disabled", "-v"],
+      "expected_exit": 0,
+      "timeout_seconds": 90,
+      "executed": false
+    }
+  ],
+  "capture": [
+    "Literal command, start/end, timeout, stdout/stderr, raw exit and test denominator for each step",
+    "Before/after source manifest hashes; peak sampled RSS and sampling gaps, owned process identity/tree and loopback port",
+    "Retain first failure, stop the batch, no silent replay or unapproved repair/rerun",
+    "After bounded owned cleanup, check process and listener absence and report any unknown transient peak"
+  ],
+  "actual_site_gate": "Separate later source review, site authority, secure main credential/session ownership and genuine integration lease required"
+}

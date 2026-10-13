@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "purpose": "U1 source review receipt, not quality acceptance/unseen freeze",
+  "code_version": "local-v2-u1.1",
+  "prompt_version": "procurement-functions-u1.1",
+  "prompt_sha256": "a73cb6f3ad2123ca8f968c234c07bdbbc566add36fdd4c2b7b2b05a891214733",
+  "hash_normalization": "CRLF to LF bytes",
+  "files": {
+    "industry_backoffice/__init__.py": "41bdf1a41891b3af871a90838d53e9f46c4673010cd58dc87ae446d687e08282",
+    "industry_backoffice/__main__.py": "af1de1d1abaa6ace5ef92484e15c7e6521f29bae8aa73d5e22ded90ac5b46cdf",
+    "industry_backoffice/browser.py": "3a2a4975066214fbd538c5ddf5d4f0911b29103850c191138558672aa55065a0",
+    "industry_backoffice/double.py": "cd700ae25700a742c1b56ef3bef0c5ec9ff647cbadcec5aba78ce892095ec232",
+    "industry_backoffice/fixture.py": "8a4fb2dc3a87df03b78cce352482388d14c79063a2cb125b74965e2f195ed9fb",
+    "industry_backoffice/protocol.py": "e231acff83e81ea4e6cdae60809cce2973c5a7916c172f1639675a9a8fc69bbb",
+    "industry_backoffice/runner.py": "9f4c23cbaa16de4d44f56fad69099302ea8efa0ccb5e088e4ebfa5b18bf3f51f",
+    "industry_backoffice/state.py": "6561dfe258e33e496fdf27e0015c1a34a51836e0001fc4e7650659678110d4ce",
+    "industry_backoffice/transport.py": "a80e58a01b84cb6dc6cbd47c2881ff0025a926cbb8ec27554f3741edf113c452",
+    "industry_backoffice/transport_worker.py": "a81b217ce488285f7fb182757cc8598f1093b1a91ee9641675e569e87776837c",
+    "industry_backoffice/verify.py": "50d745f904beef5991b56828967ae21502c851035c16db026cd440bbc53955a0",
+    "upgrade_tests/__init__.py": "bb3196b08ca17ab1168ab70ef0a366ee4aa2e9c4f0daa680f50dd11b4885e7c5",
+    "upgrade_tests/browser/test_journey.py": "34b449314e999cb36d8c26920fe23b5400c39065f13bcdd6f43b6828020e14a5",
+    "upgrade_tests/contract/test_transport.py": "343647b71cc3399fdfaa315b43d3ddd7b17430d97a575bc6ce8479f1ab1e8bb5",
+    "upgrade_tests/source_check.py": "2375a2c233831014f321e3bdb62b2e32b94744aece635f8ed889aa583ca15824",
+    "upgrade_tests/unit/test_authority.py": "dd407a5cfbd1ada8a6459f7db42f259b22a79dc66c2f2512a3378e6a8c9f32d4",
+    "upgrade_tests/unit/test_protocol.py": "a37868f97acfac25bacee213866739835a19821a60e6687978dbff5d72bb619d",
+    "upgrade_tests/unit/test_runner.py": "2bb779eaf24627737b8c39c1a715d96ec883dc699a9874c1293fca043d651f81",
+    "upgrade_tests/unit/test_verifier.py": "06f489dfec9942522e42b37a4380421c15638ce4bdd33405bd52085bfa758605",
+    "upgrade_tests/integration_batch.ps1": "b171b6cbe7a7282d5cf7a95bcf4c6e5ce10bad764e7508a377cbbbe0df1f7211",
+    "config/local-double-v2.json": "dba866c4ffce3596118deec9ed058d7388d085d1885faa7643d713aada5e8136",
+    "docs/U1_LOCAL_V2.md": "b1ce699a5edbc3040dcc8c2de4a91f889ce9a30d338ff481e7d387996c0d0124"
+  }
+}

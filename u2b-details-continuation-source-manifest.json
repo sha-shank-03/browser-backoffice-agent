@@ -1,0 +1,17 @@
+{
+  "files": {
+    "details_continuation/__init__.py": "324db1943b7bb97d46d6406ab5efbae0f3b7e33a4432abfda99e1b91322327d1",
+    "details_continuation/__main__.py": "4db457895a5ae8f134aa2e05d82c99b30e0a65b917906fe1d0d570ecef4f9d13",
+    "details_continuation/continuation.py": "0f86b11c1789940ad7248ef7ddf8481830999c751e705c55a3412ee4570e259f",
+    "details_continuation/source_check.py": "7dc9978822a853d3b8949a8c4f581eb642c31850d93335a1d6fbfb971cedcb17",
+    "details_continuation_data/future_one_slot.json": "e0c493d684f9acd53c0d3c2228acd5a00a5216336741f78771bc70c13a2baff8",
+    "details_continuation_data/provenance.json": "a04809a28dce58938663ffb684ee384f7214aaa6e105c35551a568d8ef155265",
+    "details_continuation_tests.py": "43b3bea5e82f78121feae6d0a8546c318c550117b11457b21a451f6e7b9c052c",
+    "docs/U2B_DETAILS_CONTINUATION.md": "05ed87f66c7e3f1bcf6865cbe89972b1aa77dc6a48541bb212ce970a855b3f09"
+  },
+  "native_execution": false,
+  "preserved_details_manifest_sha256": "dc18bdacd53ee7a17c94ff192918f0cd5b0c7ddf5b41b416ab60fcc3fdd78a25",
+  "quality_acceptance": false,
+  "schema_version": 1,
+  "version": "fresh-local-u2b-details-continuation.1"
+}

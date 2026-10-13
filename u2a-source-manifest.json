@@ -1,0 +1,36 @@
+{
+  "actual_site_verified": false,
+  "contract_version": "erpnext-supplier-u2a.1",
+  "dispatch_enabled": false,
+  "files": {
+    "docs/U2A_SUPPLIER_CONTRACT.md": "296eb0d2fcdd879326f09761f74bbb7b3c63499c8d13c8371addac716537a127",
+    "sandbox_profiles/erpnext-v15-sources.json": "116d3dd75cc12095b99d07429f64cb8236a7e659b22578c2ffc1fe73c6b6a59b",
+    "sandbox_profiles/erpnext-v15-supplier.profile.example.json": "01ec7eb151c91825aa193401956c03d99b258243da571314cbe9c8951cec16f3",
+    "supplier_contract_tests/__init__.py": "dafd13e1d426b83966800831b6ba087af9caf018682b2d6fa647ff71f74f49b0",
+    "supplier_contract_tests/fixtures.py": "d5d0c0895f72c5e44acd08d9c88cc47eb3d417abc342e9511260d41910783913",
+    "supplier_contract_tests/future/__init__.py": "1ed31a99a888aab87c92bb69574e16609a138c63fbf1ce0a776d756b6882dcad",
+    "supplier_contract_tests/future/support.py": "dadd96ebd7dd7072f11c7c8ae5ca47cbc2f2a83efbcd3c1299057842de2f9333",
+    "supplier_contract_tests/future/test_browser_observation.py": "a1007d7743350077d1e2cbf165d745e5298b41d8bac42de7fe3571816af29d7c",
+    "supplier_contract_tests/future/test_local_double.py": "042fe863336491b8e1d3465171954c28ca7b720d9e6cbc5b5161079d378495b9",
+    "supplier_contract_tests/future_batch.json": "0f4fa8b72f6de2a41d721c25ad35ba8daaed8284b94456aed8099b0684751f82",
+    "supplier_contract_tests/pure/__init__.py": "9fae8da803e45dc63e5012360f002aa9f8668411964f7ff837b739a38ff4d531",
+    "supplier_contract_tests/pure/test_gate.py": "d1f92e6b881d27faa99f2b68e7d45d09d7009e1f396c0602abad8d55e8f7baa6",
+    "supplier_contract_tests/pure/test_profile.py": "436feb5a6c1599f835947c965cc357fdb125b840359f7f771b21938becaaa6de",
+    "supplier_contract_tests/pure/test_verify.py": "100ea779737c063733d4679f5abb574e255cee4cd5b2a17248fa6f5f8765fb2f",
+    "supplier_contract_tests/pure_support.py": "ebc6758a91515806d17b27a59d4280794cb7933efcd3a72da81bd6679c2ef8ae",
+    "supplier_contract_tests/source_check.py": "3ad2edd31d66cab40dec1c624aacc50dd62c98e7e9a06024e0f70d23690b0097",
+    "supplier_sandbox/__init__.py": "16672d867a9a27e6fb7b6fd8efc0d4c906f42e9855edf48894e9a531cb8d2b11",
+    "supplier_sandbox/common.py": "60c30dc44a52464a8a3bdc0685d7471de79c589e2d4611b794940f05e40383b0",
+    "supplier_sandbox/gate.py": "cd2c2da84612b59cb015aa3d5c060f401a52015de14ee65f425d8f6f16087550",
+    "supplier_sandbox/profile.py": "135532a04fe538268484739fc8b15ee4bec823d11ac5a070d5b21aebec241bac",
+    "supplier_sandbox/verify.py": "a076d14b06b7ff18e4dcfb0454835fa841d1b48acdd6b87c89e26f12302cddd9"
+  },
+  "future_native_batch_executed": false,
+  "hash_normalization": "CRLF to LF bytes",
+  "preserved_manifests": {
+    "evaluation/heldout-freeze.json": "2ffaf42d86dffa7923927b957fe6b9cd4f09e9708ea427be1d492bd332a133b9",
+    "u1-source-manifest.json": "19b5ecf67098e5359fab50be4091ebb8f93e36417aa61eb0eba00e5fd5ecd9e3"
+  },
+  "purpose": "U2-A source/pure review receipt, not unseen freeze or external acceptance",
+  "schema_version": 1
+}

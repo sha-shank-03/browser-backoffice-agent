@@ -1,0 +1,50 @@
+{
+  "actor_policy_gold_or_budget_changes": false,
+  "automatic_section_opening": false,
+  "bounds": {
+    "actual_site_calls": 0,
+    "additional_disk_mib": 256,
+    "automatic_retries": 0,
+    "cleanup_margin_seconds": 105,
+    "command_timeout_seconds": 975,
+    "concurrent_chromium_browsers": 1,
+    "concurrent_owned_loopback_listeners": 2,
+    "concurrent_playwright_drivers": 1,
+    "concurrent_python_processes": 3,
+    "diagnostic_bytes_per_run": 131072,
+    "diagnostic_records_per_run": 82,
+    "downloads": 0,
+    "live_model_calls": 0,
+    "phase_seconds": 900,
+    "post_failure_dom_probe_timeout_ms": 200,
+    "ram_mib": 1536,
+    "requested_max_active_seconds": 1080
+  },
+  "case_id": "u2b-dev-02",
+  "command_template": {
+    "argv": [
+      "-B",
+      "-m",
+      "details_eval",
+      "verify-dev02",
+      "--out",
+      "work/u2b-dev02-details-verification-v1",
+      "--plan-sha256",
+      "<reviewed-plan-sha256>"
+    ],
+    "executable": ".venv/Scripts/python.exe"
+  },
+  "executed": false,
+  "execution_id": "dev02-details-verification-01",
+  "maximum_policy_attempts": 2,
+  "native_collector_fix_verified": false,
+  "new_unique_tasks": 0,
+  "original_pending_continuation_authorized": false,
+  "paired_tasks": 1,
+  "purpose": "Unexecuted changed-collector dev02 verification only",
+  "quality_acceptance": false,
+  "same_collector_for_both_policies": true,
+  "schema_version": 1,
+  "separate_main_lease_required": true,
+  "unchanged_comparator_limitation": "Historical local-double cannot open DETAILS: correct visibility can yield honest insufficient_evidence handoff instead of completion"
+}

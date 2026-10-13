@@ -1,0 +1,53 @@
+{
+  "bounds": {
+    "actual_site_calls": 0,
+    "additional_disk_mib": 256,
+    "automatic_retries": 0,
+    "cleanup_margin_seconds": 105,
+    "command_timeout_seconds": 975,
+    "concurrent_chromium_browsers": 1,
+    "concurrent_owned_loopback_listeners": 2,
+    "concurrent_playwright_drivers": 1,
+    "concurrent_python_processes": 3,
+    "diagnostic_bytes_per_run": 131072,
+    "diagnostic_records_per_run": 82,
+    "downloads": 0,
+    "live_model_calls": 0,
+    "phase_seconds": 900,
+    "post_failure_dom_probe_timeout_ms": 200,
+    "ram_mib": 1536,
+    "requested_max_active_seconds": 1080
+  },
+  "command_template": {
+    "argv": [
+      "-m",
+      "diagnostic_eval",
+      "repeat-dev02",
+      "--out",
+      "work/u2b-dev02-diagnostic-repeat-v1",
+      "--plan-sha256",
+      "<reviewed-repeat-plan-sha256>"
+    ],
+    "executable": ".venv/Scripts/python.exe"
+  },
+  "executed": false,
+  "execution_id": "dev02-diagnostic-repeat-01",
+  "maximum_policy_attempts": 2,
+  "new_unique_tasks": 0,
+  "original_continuation_authorized": false,
+  "original_pending_slots": 20,
+  "original_policy_slots": 24,
+  "original_terminal_slots": 4,
+  "paired_tasks": 1,
+  "purpose": "Unexecuted failure diagnostic repeat; no actor/visibility fix",
+  "repeat_of_original_slots": [
+    "03-semantic-rules-v2",
+    "04-local-double"
+  ],
+  "repeat_task_ids": [
+    "u2b-dev-02"
+  ],
+  "root_cause_established": false,
+  "schema_version": 1,
+  "separate_main_lease_required": true
+}

@@ -1,0 +1,28 @@
+{
+  "actual_site_calls": 0,
+  "files": {
+    "docs/U2B_DURABLE_ACCOUNTING.md": "20040e9eda3b33c55a4705011bb0038a9112071bf6a3a064d6df440433aab507",
+    "durable_eval/__init__.py": "3e37c9871750401d0ee2330047f3cd7b6373dcd3a62d8911c933fa5d16f97f6e",
+    "durable_eval/__main__.py": "64f08f39a740d43b44997160dd61c64ce897b095128247de69fc2f24bdf8fcf7",
+    "durable_eval/ledger.py": "174390d1b46dd271efdbadd21f4d449a1d63c3c22f34e8440851325144c5c711",
+    "durable_eval/native.py": "108186d2440a04325b6983eef76e32fe0503927ec1be08f67d6e6e85336d2a83",
+    "durable_eval/source_check.py": "adead933be47ee22308b6387389f39eaf73b0a84f122e1a0d92e5b4ef79c72dc",
+    "durable_eval_data/first_slice_proposal.json": "51a71205e316737a47c9c41a8e68295a918ce2f410694c87c45e1768bdc28ea0",
+    "durable_eval_tests/__init__.py": "2cc1287a7b9273704643fec47ef1c863b834b39b7410b233c57748eded009a82",
+    "durable_eval_tests/test_accounting.py": "114862ce4d1af31c32f8154efd2803bd3692f5b6d02791f817eaab9705d9ec90"
+  },
+  "hash_normalization": "CRLF to LF bytes",
+  "live_model_calls": 0,
+  "native_execution": false,
+  "preserved_manifests": {
+    "acceptance/checkpoint.json": "7e8eeab76d2801d244f553cc3c463dab654d691f4cfe3d40770317ef302d81ad",
+    "evaluation/heldout-freeze.json": "2ffaf42d86dffa7923927b957fe6b9cd4f09e9708ea427be1d492bd332a133b9",
+    "u1-source-manifest.json": "19b5ecf67098e5359fab50be4091ebb8f93e36417aa61eb0eba00e5fd5ecd9e3",
+    "u2a-source-manifest.json": "7700bd47c99c7f6e99c974d7ce7a4fde440ad6d38064675b3ff046d45d6cd493",
+    "u2b-source-manifest.json": "6c4f9c30a764b2c0b004f0d1c813072f5ac53c93c6c6210df5db101483e6424e"
+  },
+  "purpose": "additive source/pure accounting seal; not a scoring freeze",
+  "quality_acceptance": false,
+  "schema_version": 1,
+  "version": "fresh-local-u2b-accounting.1"
+}

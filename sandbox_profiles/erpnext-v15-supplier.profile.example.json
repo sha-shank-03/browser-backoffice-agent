@@ -1,0 +1,169 @@
+{
+  "contract_version": "erpnext-supplier-u2a.1",
+  "dispatch_enabled": false,
+  "document_defaults": {
+    "accounts": [],
+    "allow_purchase_invoice_creation_without_purchase_order": 0,
+    "allow_purchase_invoice_creation_without_purchase_receipt": 0,
+    "companies": [],
+    "default_bank_account": "",
+    "default_currency": "",
+    "default_price_list": "",
+    "disabled": 0,
+    "email_id": "",
+    "hold_type": "",
+    "image": "",
+    "is_frozen": 0,
+    "is_internal_supplier": 0,
+    "is_transporter": 0,
+    "language": "",
+    "mobile_no": "",
+    "naming_series": "SUP-.YYYY.-",
+    "on_hold": 0,
+    "portal_users": [],
+    "prevent_pos": 0,
+    "prevent_rfqs": 0,
+    "primary_address": "",
+    "release_date": "",
+    "represents_company": "",
+    "supplier_details": "",
+    "supplier_primary_address": "",
+    "supplier_primary_contact": "",
+    "supplier_type": "Company",
+    "tax_category": "",
+    "tax_id": "",
+    "tax_withholding_category": "",
+    "warn_pos": 0,
+    "warn_rfqs": 0,
+    "website": ""
+  },
+  "document_keys": [
+    "__islocal",
+    "__run_link_triggers",
+    "__unsaved",
+    "accounts",
+    "allow_purchase_invoice_creation_without_purchase_order",
+    "allow_purchase_invoice_creation_without_purchase_receipt",
+    "companies",
+    "country",
+    "custom_bb_contact_email",
+    "custom_bb_registration_ref",
+    "default_bank_account",
+    "default_currency",
+    "default_price_list",
+    "disabled",
+    "docstatus",
+    "doctype",
+    "email_id",
+    "hold_type",
+    "image",
+    "is_frozen",
+    "is_internal_supplier",
+    "is_transporter",
+    "language",
+    "mobile_no",
+    "name",
+    "naming_series",
+    "on_hold",
+    "owner",
+    "payment_terms",
+    "portal_users",
+    "prevent_pos",
+    "prevent_rfqs",
+    "primary_address",
+    "release_date",
+    "represents_company",
+    "supplier_details",
+    "supplier_group",
+    "supplier_name",
+    "supplier_primary_address",
+    "supplier_primary_contact",
+    "supplier_type",
+    "tax_category",
+    "tax_id",
+    "tax_withholding_category",
+    "warn_pos",
+    "warn_rfqs",
+    "website"
+  ],
+  "effective_schema_sha256": "68e19762b1cbfa1a7650d0020792256e7533ba8ffcf215fead09d18bf6e32a2e",
+  "email_storage_disclosure": "custom_bb_contact_email stores onboarding correspondence only; creates no Contact or Address.",
+  "field_mapping": {
+    "category": "supplier_group",
+    "contact_email": "custom_bb_contact_email",
+    "country": "country",
+    "legal_name": "supplier_name",
+    "payment_terms": "payment_terms",
+    "registration_ref": "custom_bb_registration_ref"
+  },
+  "isolated": true,
+  "operator_scope": {
+    "permissions": {
+      "Country": [
+        "read"
+      ],
+      "Payment Terms Template": [
+        "read"
+      ],
+      "Supplier": [
+        "create",
+        "read"
+      ],
+      "Supplier Group": [
+        "read"
+      ]
+    },
+    "principal_id": "fictional-supplier-operator",
+    "supplier_visibility": "all-in-isolated-site"
+  },
+  "origin": "https://supplier-sandbox.invalid",
+  "purpose": "exclusive-disposable-Supplier-sandbox",
+  "reference_maps": {
+    "category": {
+      "IT services": "Demo IT Services",
+      "Office supplies": "Demo Office Supplies"
+    },
+    "country": {
+      "GB": "United Kingdom",
+      "IN": "India",
+      "US": "United States"
+    },
+    "payment_terms": {
+      "NET30": "Demo Net 30",
+      "NET60": "Demo Net 60"
+    }
+  },
+  "schema_version": 1,
+  "server_identity_sha256": "d1c14970961d0f487577f2b4b28b11db6b4b4f4c6c7e13977d3dbefb4f335ae0",
+  "site_config_sha256": "504df2997a881744e08e0d3d5e6bb45b5b2c56b29f65aa8babbfa2edf71386a3",
+  "site_id": "unprovisioned-fictional-supplier-site",
+  "upstream_supplier_schema_sha256": "ad5f518acc5c2f95a5d42114451291e8b9f5c61b11e5d62b1ff0cce3560bcd39",
+  "verifier_scope": {
+    "permissions": {
+      "Country": [
+        "read"
+      ],
+      "Payment Terms Template": [
+        "read"
+      ],
+      "Supplier": [
+        "read"
+      ],
+      "Supplier Group": [
+        "read"
+      ]
+    },
+    "principal_id": "fictional-supplier-verifier",
+    "supplier_visibility": "all-in-isolated-site"
+  },
+  "versions": {
+    "erpnext": {
+      "commit": "bfd8100d42162048248b7b947f2e21fdf7999a91",
+      "version": "15.122.0"
+    },
+    "frappe": {
+      "commit": "b0b5b99a1d9d2cb3d54b32293d3854bf2c15f4a4",
+      "version": "15.122.0"
+    }
+  }
+}

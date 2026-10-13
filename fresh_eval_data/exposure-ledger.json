@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "version": "authored-exposed-u2b.1",
+  "author": "browser-backoffice-agent worker",
+  "authored_date": "2026-10-12",
+  "license": "MIT",
+  "provenance": "New fictional tasks, current HTML semantics, synthetic reviewer/fault controls; no v1 case reused",
+  "development": {
+    "path": "fresh_eval_data/development-v2.json",
+    "unique_tasks": 12,
+    "expected": {"created": 8, "existing": 1, "handoff": 3},
+    "policy_tuning_allowed": "development only before native capability freeze",
+    "pure_controls": "in-memory guards; not browser quality or native freeze evidence"
+  },
+  "capability": {
+    "path": "fresh_eval_data/capability-v2.json",
+    "unique_tasks": 24,
+    "expected": {"created": 16, "existing": 2, "handoff": 6},
+    "primary_families": {"layout": 4, "semantic_labels": 4, "validation": 4, "session": 4, "duplicate_uncertainty": 4, "injection_authority": 4},
+    "values_and_template_hashes": "disjoint from development",
+    "labels_and_expected_outcomes": "authored and exposed to worker/reviewer",
+    "baseline_tuning_on_capability": "prohibited after scoring; every loss/tie/handoff retained",
+    "policy_scoring_in_u2b_source_slice": false
+  },
+  "provider_comparator": "Historical accepted U1 local-double semantic_decision; identical public UI/protocol/tools/budgets; synthetic provider, not an LLM",
+  "unseen": {"owner": "main only", "definitions_read_or_authored_by_worker": false, "counts": null, "source_slice_dispatch": "disabled"},
+  "genuine_erpnext": {"counted_as_local_tasks": false, "dispatch": "disabled", "acceptance": "pending"},
+  "historical": "v1 authored scores and U1/U2-A contracts are separate evidence; repeated observations never inflate fresh unique-task counts"
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_sha256": {
+    "capability-v2": "c6cba2bb2859531eb8ee24a436563564514ce5f6ad1cc5298707e57d88edca0f",
+    "development-v2": "17e3c7ff8e176ae63b220cb50e4ecfd25608be41129f9ead3d59731fd003a705"
+  },
+  "external_site_calls": 0,
+  "files": {
+    ".github/workflows/u2b-pure.yml": "5c7ec8e949405c3d7b94fa44546aee7ea0faad739d31fe3c8b66b7944ba6144b",
+    "docs/U2B_CASE_STUDY.md": "59828466e68bd863fb2fac56e481bbdc4ceae0c627b9ff19581879fd3afee2cf",
+    "docs/U2B_FRESH_EVALUATION.md": "2c3dbdacd695c51f84b708768ff4bf6c5e5f2660e6579ef97493ec430cb5daa3",
+    "fresh_eval/__init__.py": "bf096dcaa47fba85925dd426c23ee4485fb99bc389aa7233ef709dbe3402b6e4",
+    "fresh_eval/__main__.py": "df7f550c50c8e2f1e49d9d3419338abfc91cd363286404b0e24ef91968fba35c",
+    "fresh_eval/auditor.py": "7d8e8b77cf0293d42e8b469164682cb7c7d4fad2206028290d79def39b58c7ef",
+    "fresh_eval/baseline.py": "84ffe629fef305f2c37c8a0b0721fcc332b7cc2fd442d04670fbf8d855a6c333",
+    "fresh_eval/browser.py": "bfae47719627293a6745381f148493910f5c3c5a22b387c3964f324cc048669f",
+    "fresh_eval/cases.py": "7b0acc7b517adbee7e3d599abc0f4d15a885097ab2be445cf70fd7a5ac6c22a1",
+    "fresh_eval/fixture.py": "31578d084842082a68d112f58b1e0c5725f3cb1f0cb74409bd86d16caac44cbd",
+    "fresh_eval/freeze.py": "e46bb55e50403159de942c4a90be79ec856af80a03aa2c2d9ded99d9a9fba202",
+    "fresh_eval/lease.py": "d2c1d180d59a8b8bdad6f4406f22e8834a0c5169e2aa254bb3c5f13df7d1a8d2",
+    "fresh_eval/native.py": "251b86a33228c051bef6d107ac09cf62eb9f9e0f3f10f905feedeb4db5f89261",
+    "fresh_eval/reporting.py": "668fbec7ccbce97198580f807dd0acdf664580ab8bb36a774a1836ed63a37476",
+    "fresh_eval/source_check.py": "e3b71854c92cd6c4f899949272dbea49e979186e225d9a4a5b6fc7e092de8e3b",
+    "fresh_eval_data/capability-v2.json": "2ae0fa3a442e1420c3addb8d142971b5796c14e2cdc3d424c333c7fb30ba63a0",
+    "fresh_eval_data/development-v2.json": "26a045fd6ef5c5f8c9b1ab2028b8fc8c63dd8112ad223d3056a683fca12e171e",
+    "fresh_eval_data/exposure-ledger.json": "ff00abd111a9f28932fb41734d3daeff53740149cdf119dcb96647779dfeb898",
+    "fresh_eval_data/future_batch.json": "727c8ca91e6850c4436a6067a9a988e6442a1a432b2754a5d5904abe8e21852c",
+    "fresh_eval_tests/__init__.py": "483fe15ac20b947ec12201510723902cd784af8a2e5b85e42cf8f116e821fbf6",
+    "fresh_eval_tests/simulator.py": "cc020aeaae23cf1f3c266558539f30ccba008ad1bb34de9137255ecc7a32753d",
+    "fresh_eval_tests/test_contract.py": "197485def4af2a041318ea81a7bb695a57d2516bbddc489b836d279aedd7d28a",
+    "fresh_eval_tests/test_native_boundary.py": "ebc801bac2c84841643f224296898d0bf1e207c8416bf1ec69f98a50a9c8bd34"
+  },
+  "hash_normalization": "CRLF to LF bytes",
+  "live_model_calls": 0,
+  "native_u2b_execution": false,
+  "preserved_manifests": {
+    "acceptance/checkpoint.json": "7e8eeab76d2801d244f553cc3c463dab654d691f4cfe3d40770317ef302d81ad",
+    "evaluation/heldout-freeze.json": "2ffaf42d86dffa7923927b957fe6b9cd4f09e9708ea427be1d492bd332a133b9",
+    "u1-source-manifest.json": "19b5ecf67098e5359fab50be4091ebb8f93e36417aa61eb0eba00e5fd5ecd9e3",
+    "u2a-source-manifest.json": "7700bd47c99c7f6e99c974d7ce7a4fde440ad6d38064675b3ff046d45d6cd493"
+  },
+  "purpose": "U2-B source/pure receipt, not capability scoring freeze or quality acceptance",
+  "schema_version": 1,
+  "version": "fresh-local-u2b.1"
+}
