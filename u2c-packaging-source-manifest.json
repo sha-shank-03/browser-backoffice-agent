@@ -1,0 +1,25 @@
+{
+  "files": {
+    "U2B_LOCAL_RESULTS.md": "65ad6cb0b99832ce5074d6acf75582f5e7c2e1e47f9903229850e2365eab96cc",
+    "evaluation/u2b-original24-local.json": "c059a0789748fb4e78cefc952c65722bf73083517bb8920040aba5322fb12f2c",
+    "u2c_projection.py": "b6d96707ff21072e3d60ace785326b9abd1639a950cae949fe45e91f559c64f4",
+    "u2c_projection_tests.py": "20c9cd06365f1273d38a37ff6ee54f41b24e8f3a1d059df34a43124f4e770048"
+  },
+  "hashing": "SHA-256 of raw file bytes; additive files written as UTF-8 with LF; existing -text Git attributes unchanged",
+  "native_execution": false,
+  "preserved_source_seals": {
+    "u2b-accounting-source-manifest.json": "48fefb588a3e761b52b23c2bbba7b21a635670d4a87ede9e8757bfcf6d9c86b9",
+    "u2b-details-source-manifest.json": "dc18bdacd53ee7a17c94ff192918f0cd5b0c7ddf5b41b416ab60fcc3fdd78a25",
+    "u2b-portable-source-manifest.json": "ecf671b67e2c711ed8adb4e3b59ddb8170d70d3af5caf6ecb867d81e398a848b",
+    "u2b-preserved-continuation-source-manifest.json": "9ab74dfff2541c4fba1344890bb3628da40aaf18d505975b5ead2f502a347442",
+    "u2b-remaining-source-manifest.json": "1e9b753dc668f29ce064db2120016534a0e86cae01436cacfadd06bef2813d8e",
+    "u2b-source-manifest.json": "6c4f9c30a764b2c0b004f0d1c813072f5ac53c93c6c6210df5db101483e6424e"
+  },
+  "private_main_acceptance_sha256": "922379b52a34d59d0b7016effcd6f7f0a8c2e9b38904b48fb197638b7166be31",
+  "private_raw_verified": false,
+  "private_reconciliation_sha256": "0749e394308f6a0cdefeff0888410f49c253e672426f275b857d7a94149ec629",
+  "quality_acceptance": false,
+  "schema_version": 1,
+  "scope": "Static public explanation and redacted historical projection; no private raw verification or native execution",
+  "version": "u2c-static-local-packaging.1"
+}

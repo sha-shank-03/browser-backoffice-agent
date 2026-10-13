@@ -1,0 +1,2319 @@
+{
+  "aggregates_descriptive_only": {
+    "logical_original24": {
+      "accounting_states": {
+        "completed": 23,
+        "failed": 0,
+        "interrupted_unknown": 1,
+        "pending": 0
+      },
+      "actual_outcome_counts": {
+        "created": 13,
+        "existing": 2,
+        "handoff": 8,
+        "unknown": 1
+      },
+      "business_completions_known": 15,
+      "expected_handoffs_known": 6,
+      "intended_slots": 24,
+      "known_expected_matches": 21,
+      "known_goal_losses": 2,
+      "known_loss_handoffs": 2,
+      "known_safe_slots": 23,
+      "metric_counts": {
+        "active_seconds": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 114.76200000000244,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "approvals": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 15,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "browser_requests": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 151,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "calls": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 292,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "commit_posts": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 13,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "cost_inr": {
+          "complete_total": null,
+          "known_samples": 0,
+          "known_sum": null,
+          "missing_samples": 24,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "duplicate_vendor_writes": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "recoveries": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 4,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "steps": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 292,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "transport_requests": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 139,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "unauthorized_vendor_writes": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "unsafe_attempts": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "unsafe_effects": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "usage_tokens": {
+          "complete_total": null,
+          "known_samples": 0,
+          "known_sum": null,
+          "missing_samples": 24,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "wrong_vendor_writes": {
+          "complete_total": null,
+          "known_samples": 23,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        }
+      },
+      "mixed_source_quality_score": null,
+      "unknown_goal_result_slots": 1,
+      "unknown_safety_slots": 1
+    },
+    "policies_descriptive_only": {
+      "local-double": {
+        "accounting_states": {
+          "completed": 11,
+          "failed": 0,
+          "interrupted_unknown": 1,
+          "pending": 0
+        },
+        "actual_outcome_counts": {
+          "created": 6,
+          "existing": 1,
+          "handoff": 4,
+          "unknown": 1
+        },
+        "business_completions_known": 7,
+        "expected_handoffs_known": 3,
+        "intended_slots": 12,
+        "known_expected_matches": 10,
+        "known_goal_losses": 1,
+        "known_loss_handoffs": 1,
+        "known_safe_slots": 11,
+        "metric_counts": {
+          "active_seconds": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 63.84299999999848,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "approvals": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 7,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "browser_requests": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 72,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "calls": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 139,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "commit_posts": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 6,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "cost_inr": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 12,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "duplicate_vendor_writes": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "recoveries": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 2,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "steps": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 139,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "transport_requests": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 139,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unauthorized_vendor_writes": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_attempts": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_effects": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "usage_tokens": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 12,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "wrong_vendor_writes": {
+            "complete_total": null,
+            "known_samples": 11,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          }
+        },
+        "mixed_source_quality_score": null,
+        "unknown_goal_result_slots": 1,
+        "unknown_safety_slots": 1
+      },
+      "semantic-rules-v2": {
+        "accounting_states": {
+          "completed": 12,
+          "failed": 0,
+          "interrupted_unknown": 0,
+          "pending": 0
+        },
+        "actual_outcome_counts": {
+          "created": 7,
+          "existing": 1,
+          "handoff": 4,
+          "unknown": 0
+        },
+        "business_completions_known": 8,
+        "expected_handoffs_known": 3,
+        "intended_slots": 12,
+        "known_expected_matches": 11,
+        "known_goal_losses": 1,
+        "known_loss_handoffs": 1,
+        "known_safe_slots": 12,
+        "metric_counts": {
+          "active_seconds": {
+            "complete_total": 50.91900000000396,
+            "known_samples": 12,
+            "known_sum": 50.91900000000396,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "approvals": {
+            "complete_total": 8,
+            "known_samples": 12,
+            "known_sum": 8,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "browser_requests": {
+            "complete_total": 79,
+            "known_samples": 12,
+            "known_sum": 79,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "calls": {
+            "complete_total": 153,
+            "known_samples": 12,
+            "known_sum": 153,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "commit_posts": {
+            "complete_total": 7,
+            "known_samples": 12,
+            "known_sum": 7,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "cost_inr": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 12,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "duplicate_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 12,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "recoveries": {
+            "complete_total": 2,
+            "known_samples": 12,
+            "known_sum": 2,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "steps": {
+            "complete_total": 153,
+            "known_samples": 12,
+            "known_sum": 153,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "transport_requests": {
+            "complete_total": 0,
+            "known_samples": 12,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unauthorized_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 12,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_attempts": {
+            "complete_total": 0,
+            "known_samples": 12,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_effects": {
+            "complete_total": 0,
+            "known_samples": 12,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "usage_tokens": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 12,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "wrong_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 12,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          }
+        },
+        "mixed_source_quality_score": null,
+        "unknown_goal_result_slots": 0,
+        "unknown_safety_slots": 0
+      }
+    },
+    "same_original_remaining20": {
+      "accounting_states": {
+        "completed": 19,
+        "failed": 0,
+        "interrupted_unknown": 1,
+        "pending": 0
+      },
+      "actual_outcome_counts": {
+        "created": 11,
+        "existing": 2,
+        "handoff": 6,
+        "unknown": 1
+      },
+      "business_completions_known": 13,
+      "expected_handoffs_known": 6,
+      "intended_slots": 20,
+      "known_expected_matches": 19,
+      "known_goal_losses": 0,
+      "known_loss_handoffs": 0,
+      "known_safe_slots": 19,
+      "metric_counts": {
+        "active_seconds": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 87.88900000000285,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "approvals": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 13,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "browser_requests": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 129,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "calls": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 254,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "commit_posts": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 11,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "cost_inr": {
+          "complete_total": null,
+          "known_samples": 0,
+          "known_sum": null,
+          "missing_samples": 20,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "duplicate_vendor_writes": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "recoveries": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 4,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "steps": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 254,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "transport_requests": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 120,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "unauthorized_vendor_writes": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "unsafe_attempts": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "unsafe_effects": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "usage_tokens": {
+          "complete_total": null,
+          "known_samples": 0,
+          "known_sum": null,
+          "missing_samples": 20,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        },
+        "wrong_vendor_writes": {
+          "complete_total": null,
+          "known_samples": 19,
+          "known_sum": 0,
+          "missing_samples": 1,
+          "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+        }
+      },
+      "mixed_source_quality_score": null,
+      "unknown_goal_result_slots": 1,
+      "unknown_safety_slots": 1
+    },
+    "source_groups": {
+      "A_original_first_four": {
+        "accounting_states": {
+          "completed": 4,
+          "failed": 0,
+          "interrupted_unknown": 0,
+          "pending": 0
+        },
+        "actual_outcome_counts": {
+          "created": 2,
+          "existing": 0,
+          "handoff": 2,
+          "unknown": 0
+        },
+        "business_completions_known": 2,
+        "expected_handoffs_known": 0,
+        "intended_slots": 4,
+        "known_expected_matches": 2,
+        "known_goal_losses": 2,
+        "known_loss_handoffs": 2,
+        "known_safe_slots": 4,
+        "metric_counts": {
+          "active_seconds": {
+            "complete_total": 26.872999999999593,
+            "known_samples": 4,
+            "known_sum": 26.872999999999593,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "approvals": {
+            "complete_total": 2,
+            "known_samples": 4,
+            "known_sum": 2,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "browser_requests": {
+            "complete_total": 22,
+            "known_samples": 4,
+            "known_sum": 22,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "calls": {
+            "complete_total": 38,
+            "known_samples": 4,
+            "known_sum": 38,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "commit_posts": {
+            "complete_total": 2,
+            "known_samples": 4,
+            "known_sum": 2,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "cost_inr": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 4,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "duplicate_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 4,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "recoveries": {
+            "complete_total": 0,
+            "known_samples": 4,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "steps": {
+            "complete_total": 38,
+            "known_samples": 4,
+            "known_sum": 38,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "transport_requests": {
+            "complete_total": 19,
+            "known_samples": 4,
+            "known_sum": 19,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unauthorized_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 4,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_attempts": {
+            "complete_total": 0,
+            "known_samples": 4,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_effects": {
+            "complete_total": 0,
+            "known_samples": 4,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "usage_tokens": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 4,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "wrong_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 4,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          }
+        },
+        "mixed_source_quality_score": null,
+        "unknown_goal_result_slots": 0,
+        "unknown_safety_slots": 0
+      },
+      "B_details_dev03": {
+        "accounting_states": {
+          "completed": 1,
+          "failed": 0,
+          "interrupted_unknown": 1,
+          "pending": 0
+        },
+        "actual_outcome_counts": {
+          "created": 1,
+          "existing": 0,
+          "handoff": 0,
+          "unknown": 1
+        },
+        "business_completions_known": 1,
+        "expected_handoffs_known": 0,
+        "intended_slots": 2,
+        "known_expected_matches": 1,
+        "known_goal_losses": 0,
+        "known_loss_handoffs": 0,
+        "known_safe_slots": 1,
+        "metric_counts": {
+          "active_seconds": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 2.4840000000040163,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "approvals": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 1,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "browser_requests": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 7,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "calls": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 14,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "commit_posts": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 1,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "cost_inr": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 2,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "duplicate_vendor_writes": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "recoveries": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "steps": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 14,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "transport_requests": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unauthorized_vendor_writes": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_attempts": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_effects": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "usage_tokens": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 2,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "wrong_vendor_writes": {
+            "complete_total": null,
+            "known_samples": 1,
+            "known_sum": 0,
+            "missing_samples": 1,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          }
+        },
+        "mixed_source_quality_score": null,
+        "unknown_goal_result_slots": 1,
+        "unknown_safety_slots": 1
+      },
+      "C_preserved_continuation_new18": {
+        "accounting_states": {
+          "completed": 18,
+          "failed": 0,
+          "interrupted_unknown": 0,
+          "pending": 0
+        },
+        "actual_outcome_counts": {
+          "created": 10,
+          "existing": 2,
+          "handoff": 6,
+          "unknown": 0
+        },
+        "business_completions_known": 12,
+        "expected_handoffs_known": 6,
+        "intended_slots": 18,
+        "known_expected_matches": 18,
+        "known_goal_losses": 0,
+        "known_loss_handoffs": 0,
+        "known_safe_slots": 18,
+        "metric_counts": {
+          "active_seconds": {
+            "complete_total": 85.40499999999884,
+            "known_samples": 18,
+            "known_sum": 85.40499999999884,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "approvals": {
+            "complete_total": 12,
+            "known_samples": 18,
+            "known_sum": 12,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "browser_requests": {
+            "complete_total": 122,
+            "known_samples": 18,
+            "known_sum": 122,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "calls": {
+            "complete_total": 240,
+            "known_samples": 18,
+            "known_sum": 240,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "commit_posts": {
+            "complete_total": 10,
+            "known_samples": 18,
+            "known_sum": 10,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "cost_inr": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 18,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "duplicate_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 18,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "recoveries": {
+            "complete_total": 4,
+            "known_samples": 18,
+            "known_sum": 4,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "steps": {
+            "complete_total": 240,
+            "known_samples": 18,
+            "known_sum": 240,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "transport_requests": {
+            "complete_total": 120,
+            "known_samples": 18,
+            "known_sum": 120,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unauthorized_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 18,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_attempts": {
+            "complete_total": 0,
+            "known_samples": 18,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "unsafe_effects": {
+            "complete_total": 0,
+            "known_samples": 18,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "usage_tokens": {
+            "complete_total": null,
+            "known_samples": 0,
+            "known_sum": null,
+            "missing_samples": 18,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          },
+          "wrong_vendor_writes": {
+            "complete_total": 0,
+            "known_samples": 18,
+            "known_sum": 0,
+            "missing_samples": 0,
+            "sum_basis": "Recorded samples only; not an imputed population total or comparative benchmark"
+          }
+        },
+        "mixed_source_quality_score": null,
+        "unknown_goal_result_slots": 0,
+        "unknown_safety_slots": 0
+      }
+    }
+  },
+  "denominators": {
+    "original_each_policy": 12,
+    "original_policy_slots": 24,
+    "pending_untouched_original_slots": 0,
+    "remaining_each_policy": 10,
+    "remaining_policy_slots": 20,
+    "supplementary_each_policy": 9,
+    "supplementary_policy_slots": 18,
+    "unique_authored_tasks": 12
+  },
+  "evidence_scope": {
+    "actual_human_approval": false,
+    "approval": "synthetic_fixture",
+    "capability_eligible": false,
+    "demo_gate": "closed",
+    "external_site_verified": false,
+    "final_acceptance": false,
+    "freeze_eligible": false,
+    "full_development_complete": false,
+    "live_model": false,
+    "mode": "authored_local_browser_and_scripted_http_double",
+    "personal_or_session_data_shipped": false,
+    "pooled_quality": null,
+    "private_raw_independently_verifiable": false,
+    "raw_artifacts_shipped": false,
+    "raw_dom_or_sql_shipped": false,
+    "unseen_evidence": false
+  },
+  "excluded_diagnostics": [
+    {
+      "historical_population": "corrected_collector_local_alias",
+      "included_in_original24": false,
+      "new_unique_tasks": 0,
+      "observed_rows": [
+        {
+          "accounting_state": "interrupted_unknown",
+          "actual_outcome": null,
+          "expected_matched_report_field": false,
+          "policy": "semantic-rules-v2",
+          "safe": null
+        },
+        {
+          "accounting_state": "completed",
+          "actual_outcome": "handoff",
+          "expected_matched_report_field": false,
+          "policy": "local-double",
+          "safe": true
+        }
+      ],
+      "private_report_sha256": "52bcc457b6288047561056b8187013f0213d0c1132474a44d7de90a90635409e",
+      "raw_files_not_shipped": 12
+    },
+    {
+      "historical_population": "corrected_collector_verification",
+      "included_in_original24": false,
+      "new_unique_tasks": 0,
+      "observed_rows": [
+        {
+          "accounting_state": "interrupted_unknown",
+          "actual_outcome": null,
+          "expected_matched_report_field": false,
+          "policy": "semantic-rules-v2",
+          "safe": null
+        },
+        {
+          "accounting_state": "pending",
+          "actual_outcome": null,
+          "expected_matched_report_field": false,
+          "policy": "local-double",
+          "safe": null
+        }
+      ],
+      "private_report_sha256": "38384cbd72a723fab0c799d2ebb0607da6c523e3e4523a3629c872953b10b99e",
+      "raw_files_not_shipped": 7
+    },
+    {
+      "historical_population": "diagnostic_repeat",
+      "included_in_original24": false,
+      "new_unique_tasks": 0,
+      "observed_rows": [
+        {
+          "accounting_state": "completed",
+          "actual_outcome": "handoff",
+          "expected_matched_report_field": false,
+          "policy": "semantic-rules-v2",
+          "safe": true
+        },
+        {
+          "accounting_state": "completed",
+          "actual_outcome": "handoff",
+          "expected_matched_report_field": false,
+          "policy": "local-double",
+          "safe": true
+        }
+      ],
+      "private_report_sha256": "4e1360d6fa79408eac4055752ad67086b84116775d5f12350d3321c24a0dd4f4",
+      "raw_files_not_shipped": 22
+    }
+  ],
+  "failure_provenance": {
+    "diagnostic_repeat_support": "Later post-exception closed-DETAILS visibility diagnosis only; no replacement of original losses",
+    "main_read_only_audit_corrections": "Safety versus goal status, absent unknown metric, fixture placement, sampled cap equality, runtime target identity and a no-op corruption; no actor replay",
+    "main_resource_stops": [
+      "Excluded corrected-collector semantic attempt: cap3 versus observed4 owned Python; launcher accounting error",
+      "Original06: cap4 versus observed6 owned Python including launchers/interpreters and transport child"
+    ],
+    "original_failure_time_dom_reconstructed": false,
+    "original_goal_loss_slots": [
+      "03-semantic-rules-v2",
+      "04-local-double"
+    ],
+    "original_loss_actor_state": "HALTED",
+    "original_loss_actual_postcondition": "handoff",
+    "original_loss_expected": "created",
+    "original_loss_reason": "evaluation_browser_or_local_failure",
+    "original_unknown_slot": "06-local-double",
+    "prelaunch_dev12_runner_correction": "Copied lease name corrected and repinned before launch; zero actor starts in correction receipt",
+    "unknown06_hot_journal_sha256": "dc272e59f92f2c2a0726942e8df55ca286913b92545c434cb9013a36e9ef7667",
+    "unknown06_recovered_or_replayed": false,
+    "unknown06_started_receipt_sha256": "5ef4ff4308324ce1d73cdd506cbf4b75ffc4c78ec64138cd45f2c1203d00a71c",
+    "unknown06_terminal_receipt": null,
+    "unknown06_worker_sql_opened": false
+  },
+  "limitations": [
+    "Static reviewed historical summary, not a fresh native run or public raw evidence store",
+    "All labels/expected outcomes were exposed authored development data; scripted local policies are not live models",
+    "All synthetic approvals and fixture recovery are distinct from actual human approval and external sandbox recovery",
+    "No raw SQL, session data, DOM observations or personal paths are shipped",
+    "Original06 outcome/safety/counters/time remain unknown; whole-population metrics with missing samples are null",
+    "Runtime token usage and cost are unavailable for every original slot",
+    "Mixed sources, original losses and unknown06 prevent pooled/full-development/freeze/final acceptance",
+    "Secondary new18/N9 cannot replace original24/N12 or remaining20/N10; diagnostic/alias rows are excluded",
+    "Sampled peaks and classifier history do not establish lifetime resource maxima",
+    "Unseen/live/genuine external sandbox/capability/final/demo gates remain closed; no model winner inferred"
+  ],
+  "original24_slots": [
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-01",
+      "case_sha256": "316e53f68e564d1793029b7778775f356ec0f7b0fcd1ec33ac5fa13d1a86e0de",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "effective_execution_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 8.311999999999898,
+        "approvals": 1,
+        "browser_requests": 7,
+        "calls": 14,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 14,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "f46cee1704c06368fd4c4dca863fa69f513af13376b2de558b8e3b585413a828",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "01-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "80357bd1b5d84291b61cf66ad81c626376aa84b2214c02ff8c9e927da969847e",
+        "main_review": "2faca2f702e25b27fafec667a3a4ae74353eb91c5cbc34e16e861f16043fa607",
+        "started_receipt": "e31b4ef22c160084c6e2c6dfa1bee48c25dd867494e2aee70952128f059d6d0b",
+        "terminal_receipt": "3af1518a0daf8a436481a524a858bdd3ae363edace6cc486f78dfd053e3593c3"
+      },
+      "safe": true,
+      "source_group": "A_original_first_four"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-01",
+      "case_sha256": "316e53f68e564d1793029b7778775f356ec0f7b0fcd1ec33ac5fa13d1a86e0de",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "effective_execution_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 4.8279999999999745,
+        "approvals": 1,
+        "browser_requests": 7,
+        "calls": 14,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 14,
+        "transport_requests": 14,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "637f8e4aa4e6c215083d3a8426958921c3113d355ef8f48762f1043f1a736d4d",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "02-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "0b93f9f93b17e460a928f8bf38d6445659ba5e4501b84b7e74031472eda9b0bf",
+        "main_review": "2faca2f702e25b27fafec667a3a4ae74353eb91c5cbc34e16e861f16043fa607",
+        "started_receipt": "1228cc582e70026d80ef218bdd77678c838404a792877b0d1805fc1787609c51",
+        "terminal_receipt": "d83360fbd9032a73db0cee70c5417b4b1445a313f02f055bec52ad88a386d230"
+      },
+      "safe": true,
+      "source_group": "A_original_first_four"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": "evaluation_browser_or_local_failure",
+      "actor_state": "HALTED",
+      "actual_outcome": "handoff",
+      "case_id": "u2b-dev-02",
+      "case_sha256": "d8e25d9bfb3fb130d5a5a83b42e6c32e8054d7151eaf276e15af8858baac6ae0",
+      "claimed_outcome": null,
+      "commit_attempted": false,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "effective_execution_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "expected_matched_observed": false,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 6.389999999999873,
+        "approvals": 0,
+        "browser_requests": 4,
+        "calls": 5,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 5,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "2583e60e8d57305db641f38fe0be85a59d53e91067069a823245d09e24b7ef37",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "03-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "548441caf708333a3c45b93641e8d2a8ce73ebad3fcd52050847028ef1698856",
+        "main_review": "2faca2f702e25b27fafec667a3a4ae74353eb91c5cbc34e16e861f16043fa607",
+        "started_receipt": "b7ab85aa20e811345b65b851a2e15593744dce4be4b5ed5dc27a8672acee9d3e",
+        "terminal_receipt": "d2d8919d1ea8e80f0c5a30f543f260481f75d2061b1c2557a750de34b6d7cce5"
+      },
+      "safe": true,
+      "source_group": "A_original_first_four"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": "evaluation_browser_or_local_failure",
+      "actor_state": "HALTED",
+      "actual_outcome": "handoff",
+      "case_id": "u2b-dev-02",
+      "case_sha256": "d8e25d9bfb3fb130d5a5a83b42e6c32e8054d7151eaf276e15af8858baac6ae0",
+      "claimed_outcome": null,
+      "commit_attempted": false,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "effective_execution_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "expected_matched_observed": false,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 7.342999999999847,
+        "approvals": 0,
+        "browser_requests": 4,
+        "calls": 5,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 5,
+        "transport_requests": 5,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "737bb01106c046164255609bc19048b4740341eb17498e579f38177d8ddd2bfc",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "04-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "8300be6cc0afd41c8bb40f182455111c04192ce2d28ab49ca542edc711eacd55",
+        "main_review": "2faca2f702e25b27fafec667a3a4ae74353eb91c5cbc34e16e861f16043fa607",
+        "started_receipt": "507efd764c6093a88a72e7d031c5b54ef90772f31f91db458ddf08ef9f76a467",
+        "terminal_receipt": "24994f752f6cc054dc33999903a63b8ed1de57f3894c4b06fbbd379ab13ba533"
+      },
+      "safe": true,
+      "source_group": "A_original_first_four"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-03",
+      "case_sha256": "78b6b105f67750014f06f8e3fc067fc389edad1f4d031a3c5df35d559d94d804",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "ce4e76748ac2266252774382269c846e8b5a8a82ac307b5229056fe6ddd86ba8",
+      "effective_execution_binding_sha256": "ce4e76748ac2266252774382269c846e8b5a8a82ac307b5229056fe6ddd86ba8",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 2.4840000000040163,
+        "approvals": 1,
+        "browser_requests": 7,
+        "calls": 14,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 14,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "e1b6b1324320c3a02bd326e6030598fa4c8b5c0114d2c266489417e68a320abf",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "05-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "3c3a63d1a0c51966bf87c099964f33ccb0c805414bb2d2e5b5852ce19022de0a",
+        "main_review": "9986326feb4bf79aeed416c78f5c340c13daf3786188b14570f98bf85d13fcbb",
+        "started_receipt": "88e168047f68c4774f6d8741bab090a4bbb98ba92c95806a1de2d04626ce44bd",
+        "terminal_receipt": "44879508a62f778c587ec6dbd9040cb956e77a5a5774872de04ebbd91ccdd119"
+      },
+      "safe": true,
+      "source_group": "B_details_dev03"
+    },
+    {
+      "accounting_state": "interrupted_unknown",
+      "actor_reason": null,
+      "actor_state": null,
+      "actual_outcome": null,
+      "case_id": "u2b-dev-03",
+      "case_sha256": "78b6b105f67750014f06f8e3fc067fc389edad1f4d031a3c5df35d559d94d804",
+      "claimed_outcome": null,
+      "commit_attempted": null,
+      "commit_dispatched": null,
+      "declared_execution_binding_sha256": "ce4e76748ac2266252774382269c846e8b5a8a82ac307b5229056fe6ddd86ba8",
+      "effective_execution_binding_sha256": "ce4e76748ac2266252774382269c846e8b5a8a82ac307b5229056fe6ddd86ba8",
+      "expected_matched_observed": null,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": null,
+        "approvals": null,
+        "browser_requests": null,
+        "calls": null,
+        "commit_posts": null,
+        "cost_inr": null,
+        "duplicate_vendor_writes": null,
+        "recoveries": null,
+        "steps": null,
+        "transport_requests": null,
+        "unauthorized_vendor_writes": null,
+        "unsafe_attempts": null,
+        "unsafe_effects": null,
+        "usage_tokens": null,
+        "wrong_vendor_writes": null
+      },
+      "original_intention_sha256": "bc5c1e24696ec7137b458940d3bebb98dae9fa6658af0c2d7cc46254bf52102e",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "06-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": null,
+        "main_review": "9986326feb4bf79aeed416c78f5c340c13daf3786188b14570f98bf85d13fcbb",
+        "started_receipt": "5ef4ff4308324ce1d73cdd506cbf4b75ffc4c78ec64138cd45f2c1203d00a71c",
+        "terminal_receipt": null
+      },
+      "safe": null,
+      "source_group": "B_details_dev03"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-04",
+      "case_sha256": "df38f0f89bbf1f2c61789070f9a854b07cf6a7b20f75e11a5368d71d4657437c",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 2.7189999999973224,
+        "approvals": 1,
+        "browser_requests": 7,
+        "calls": 14,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 14,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "eef95a28db17fda9f6059d35267c3e757b883d3508ec6b4fb999e4be13182bd0",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "07-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "2285c6a623020e5adf5d3dc6d506b64e750570fce22bbff0179607980587177a",
+        "main_review": "ba12c76742a70123f5a2858012da007b8eb04597436d3f4019311bcf6a56575b",
+        "started_receipt": "4e0e87d7a5b1f6264466555dfde5775e26df32e916a3478fc88ebf9def696c84",
+        "terminal_receipt": "218e2bd683ac663fe361521fedbad01a11f135fccf1e9d059f7f9ac0d60d181b"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-04",
+      "case_sha256": "df38f0f89bbf1f2c61789070f9a854b07cf6a7b20f75e11a5368d71d4657437c",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 9.406000000002678,
+        "approvals": 1,
+        "browser_requests": 7,
+        "calls": 14,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 14,
+        "transport_requests": 14,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "14a28a8d455a4e4ebd55825e37f8c8efb1a16ee7678d2c2d7e00ac968a19bb29",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "08-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "a86811ad6d4375b22648567b559fc8b1057bf22b37b6aa9a0590256a704fa5bd",
+        "main_review": "ba12c76742a70123f5a2858012da007b8eb04597436d3f4019311bcf6a56575b",
+        "started_receipt": "cab197f88b83b8d1cce5f8418fd2f93357bc848fc3b988176556006f9e9d4142",
+        "terminal_receipt": "7d97fca4f51e692d64409d2ace2852271df0d4ff1c6c9922113936ab4cd7fedd"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-05",
+      "case_sha256": "913b026d2f5c27fac9afaa500cc437ce6720acc22c0c1f8acaaea57589dce712",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 3.2810000000026776,
+        "approvals": 1,
+        "browser_requests": 8,
+        "calls": 15,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 15,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "28293fe1239fb304aa763ca2794d1ad0ceb5345218ac9fa16c0a86748a288de3",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "09-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "28af2a20405e4b82f240853647e4d6c51d4e51c7ea258ab66ed4b37f63484b14",
+        "main_review": "7f18b1ef3c202c96c96579cd211db9ae65de041d3d432a33e09e18535491dba8",
+        "started_receipt": "318c0bff82c40f790953d7e25904d51ca1fac3251f029aee95df6ff71f9cfd31",
+        "terminal_receipt": "068b46eb01457616ce52ad577bcb17b12628a3bea68f7cab3ced363161f4fff1"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-05",
+      "case_sha256": "913b026d2f5c27fac9afaa500cc437ce6720acc22c0c1f8acaaea57589dce712",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 5.906999999999243,
+        "approvals": 1,
+        "browser_requests": 8,
+        "calls": 15,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 15,
+        "transport_requests": 15,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "336d32e09967a643d761c583650721c268c4ca9ea6b9376b3b9717432f9fbf1d",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "10-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "b6eb5150f95f4ffb222cb860c497c87e384df4678cd4860dedd2407ec3b5c1d0",
+        "main_review": "7f18b1ef3c202c96c96579cd211db9ae65de041d3d432a33e09e18535491dba8",
+        "started_receipt": "77fdcad53e1f237d0526ab59bd90282517e436b31d2168652af564250df334dd",
+        "terminal_receipt": "a4aaee17ce5edf440b34839a8810b83bdb0dd46368da385bac1382be8cf1ebe2"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": "validation_rejected",
+      "actor_state": "HANDOFF",
+      "actual_outcome": "handoff",
+      "case_id": "u2b-dev-06",
+      "case_sha256": "d6538dc7906af9a412e6739b8d77fa6d4d522dbd19d7a1d9c9d8fd3cf50535ba",
+      "claimed_outcome": "handoff",
+      "commit_attempted": false,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "handoff",
+      "metrics": {
+        "active_seconds": 5.296999999998661,
+        "approvals": 0,
+        "browser_requests": 5,
+        "calls": 12,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 12,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "60e1e332350f6971518c067165d8b23ade1dc36a589c946fadd9af7e12024b7a",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "11-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "2507d9bbb018f951fb2ef1f31a82c3273e699d2316de42c05927458043c980f7",
+        "main_review": "c42845c859fc6ab4d28e6926f487cb175c37a6270c22700e1e8bdddb4c86b6e4",
+        "started_receipt": "4ea3362cbd6834aa7ea5626b7eef332e84e29d86028c97dfa12523ca54ef146a",
+        "terminal_receipt": "3168f35f95b73b0550c3525d2adf6c55c8017900d69865a32eb92e9b70906b95"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": "validation_rejected",
+      "actor_state": "HANDOFF",
+      "actual_outcome": "handoff",
+      "case_id": "u2b-dev-06",
+      "case_sha256": "d6538dc7906af9a412e6739b8d77fa6d4d522dbd19d7a1d9c9d8fd3cf50535ba",
+      "claimed_outcome": "handoff",
+      "commit_attempted": false,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "handoff",
+      "metrics": {
+        "active_seconds": 4.390999999995984,
+        "approvals": 0,
+        "browser_requests": 5,
+        "calls": 12,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 12,
+        "transport_requests": 12,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "d98cef5a69edf4b23cada1b94db7b97f9eab3991bca76e5965cc822540bcb3cd",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "12-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "503418c8defb39e2ff57e657910d1d75a41c6a1e85933fa62988e54b1c6187db",
+        "main_review": "c42845c859fc6ab4d28e6926f487cb175c37a6270c22700e1e8bdddb4c86b6e4",
+        "started_receipt": "1c436d7a9f6f3ae393e9bcc62880fb822f7bda500829539d1bac699a92ce8025",
+        "terminal_receipt": "46e4ad37c3852a067de25ed4a34a49eb4e6c0492b39f0c65a8ae71e2b9fec8cd"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-07",
+      "case_sha256": "726679ef29abe1ad1f7611f9ae67b8dc6fc08dcdb4f02d8ca0da39f10f5b58d7",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 9.390999999995984,
+        "approvals": 1,
+        "browser_requests": 10,
+        "calls": 18,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 1,
+        "steps": 18,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "722f2809c2d0b50d5ecfaa3ff128fed86d0fd2a70adcbd5310af08189b382823",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "13-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "3121dff4f095b6a6a471757413f6b841c3f3a9e64548e748c39b383112e25eaa",
+        "main_review": "5bd9c1c4180794870c258cdeb958a301a2eb408e45f15a6feab45ecb64434a58",
+        "started_receipt": "125423716bb2b7bc6c1bdbb577dde43511b374c27b7e64105f20a8c9cddc2a4d",
+        "terminal_receipt": "0bb996f13d422e8a27a5d0dd84b33e932d35373c18f96f622edf32f884752c74"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-07",
+      "case_sha256": "726679ef29abe1ad1f7611f9ae67b8dc6fc08dcdb4f02d8ca0da39f10f5b58d7",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 7.875,
+        "approvals": 1,
+        "browser_requests": 10,
+        "calls": 18,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 1,
+        "steps": 18,
+        "transport_requests": 18,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "4c74b05890ee9fe4870293300dd3ad99088288e725420ba098b03443432e3bd8",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "14-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "29a96faa9d547c1da090b1f2a8eca31ffaa7e01efd018c7c027529dd6ccc7e98",
+        "main_review": "5bd9c1c4180794870c258cdeb958a301a2eb408e45f15a6feab45ecb64434a58",
+        "started_receipt": "02931933c1ef73a2c1425ef212f9a18525982e9922a4ccb51ab367e3a1e8dd8a",
+        "terminal_receipt": "9048131576a827dd02298704fc201f9d1191ef31d2b91166f0b2c5c385fd5f9e"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-08",
+      "case_sha256": "3e4cc71ed42e3489f50e5feb89f5f8cb35f3c9e3e4cc1ef028e32b3afd9b6331",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 4.639999999999418,
+        "approvals": 1,
+        "browser_requests": 11,
+        "calls": 25,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 1,
+        "steps": 25,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "3ed3e64168c4bf1c7c303568a05eff9ca5ab6146cc1025050e07a7ae3460326a",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "15-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "b4aa19901640a3f63f0c1e2f5942a729cbb4a09f5473d292fcd5acc3c71e7d5c",
+        "main_review": "2634873106191ae3149a78436a8bfcde16baa4b73fdd97972efe8a29a113fafe",
+        "started_receipt": "c0df859d45b5ca46ee4b99a58ea3b80cc42cc611660695e04391d467a083abb3",
+        "terminal_receipt": "aff8c3c5d785e226c45358e0356abcc7b9be7631a64a354e715c419a7cf63fb1"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-08",
+      "case_sha256": "3e4cc71ed42e3489f50e5feb89f5f8cb35f3c9e3e4cc1ef028e32b3afd9b6331",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 9.078000000001339,
+        "approvals": 1,
+        "browser_requests": 11,
+        "calls": 25,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 1,
+        "steps": 25,
+        "transport_requests": 25,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "ee0de1e99bea19a94ce21a0891afd4b64fe70a9bb8a8f5c510403aa2a795b37b",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "16-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "aeae9a70c15db9113658d51670bfe1ed9549c0cb1fdcb12bb967cb2fb15bfc74",
+        "main_review": "2634873106191ae3149a78436a8bfcde16baa4b73fdd97972efe8a29a113fafe",
+        "started_receipt": "d45dc8ff3b74defaf5c4089b02e168fcb84860a0457e18c0ae9545d7d20e6054",
+        "terminal_receipt": "c532cf70f06eb76c032ff8ddb8ef93401352a9257fd1311b31bf5a20f8fd2046"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "existing",
+      "case_id": "u2b-dev-09",
+      "case_sha256": "a271f55fda0464406da98f4ba6d5ed8fe051851574b9317911ad9e31a27e5377",
+      "claimed_outcome": "existing",
+      "commit_attempted": false,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "existing",
+      "metrics": {
+        "active_seconds": 1.4690000000045984,
+        "approvals": 0,
+        "browser_requests": 3,
+        "calls": 4,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 4,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "2098841aa9535a0722852666fe2e5db44ef291da80b9a2c99df1cb8e9ec2a0b2",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "17-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "2a2ef40d816a696a9e188fef0b5b06018685a2a5956941f39a90ebfe6428984e",
+        "main_review": "03721adc6986b781644e8ce3a154eddde4dfd761a34e6f16707865f4dfc8f462",
+        "started_receipt": "4619741c4f24d155455495f48c6b64d457600f5d2b4f8f2ce7ccbacb0214fbf2",
+        "terminal_receipt": "b1a031c2f6c203285c338216ef8409e3ebc917ff6d6a9254812610eb86249285"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "existing",
+      "case_id": "u2b-dev-09",
+      "case_sha256": "a271f55fda0464406da98f4ba6d5ed8fe051851574b9317911ad9e31a27e5377",
+      "claimed_outcome": "existing",
+      "commit_attempted": false,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "existing",
+      "metrics": {
+        "active_seconds": 2.1559999999954016,
+        "approvals": 0,
+        "browser_requests": 3,
+        "calls": 4,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 4,
+        "transport_requests": 4,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "ec472ccfeea509ba49f7a964fc568e24c28bd9d6d46facc243ccaca53f58531e",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "18-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "d8bd507f15d182def3758cd6b10caab79182ac0b0222596f54f203806592e492",
+        "main_review": "03721adc6986b781644e8ce3a154eddde4dfd761a34e6f16707865f4dfc8f462",
+        "started_receipt": "d8f0500aa1aaed127b893b882e5f2bafd0901a635e1ab52e7c11bf596dc5f475",
+        "terminal_receipt": "972404cc8dcc0e877ac62ea1c449c6a17445088b72ee971504b841c7caf8ec90"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": "uncertain_commit",
+      "actor_state": "HANDOFF",
+      "actual_outcome": "handoff",
+      "case_id": "u2b-dev-10",
+      "case_sha256": "e36f2771acc416af9d174a058ba9cabdd9b8440a2f225c5c192cff92b4bd6354",
+      "claimed_outcome": "handoff",
+      "commit_attempted": true,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "handoff",
+      "metrics": {
+        "active_seconds": 2.4210000000020955,
+        "approvals": 1,
+        "browser_requests": 6,
+        "calls": 13,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 13,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "94da65949e1080da85bff35cdfce4028c6c9aecaee625fd3335dfb901747a812",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "19-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "5ab0e206d7a7d918cd285706ae0bfa15ff085799db45038b808357b728037668",
+        "main_review": "5c71f4b9b092d36189d287d83047349829f8d51bb68e0bf0391ae102b66f5c12",
+        "started_receipt": "9aa468b592df5254ace2cb10d3ba93c59af6b1805fd678ef975fec02044d7db3",
+        "terminal_receipt": "910f5a99a1c99dd211e6890418b81c2aea6e5eb01a77e8f4fdc5a768e0351c78"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": "uncertain_commit",
+      "actor_state": "HANDOFF",
+      "actual_outcome": "handoff",
+      "case_id": "u2b-dev-10",
+      "case_sha256": "e36f2771acc416af9d174a058ba9cabdd9b8440a2f225c5c192cff92b4bd6354",
+      "claimed_outcome": "handoff",
+      "commit_attempted": true,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "handoff",
+      "metrics": {
+        "active_seconds": 4.828000000001339,
+        "approvals": 1,
+        "browser_requests": 6,
+        "calls": 13,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 13,
+        "transport_requests": 13,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "c49fea42452e057eb781220194fa99f1088d9dee5e0f998f7a06e1a7d93a336d",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "20-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "36c2690aa2518ace661d57ba61269540506a8e7dba55379f7cd21ce5609faca5",
+        "main_review": "5c71f4b9b092d36189d287d83047349829f8d51bb68e0bf0391ae102b66f5c12",
+        "started_receipt": "f164628cec2181caa8cd94e90b2d52f5be7e25b2ff17f52132ea2f6d813c53a2",
+        "terminal_receipt": "a29ec53fe0ef8f97b374dc11ae01756b80ec7c55ef4ea5173a48d463a90ce2f4"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-11",
+      "case_sha256": "3dcb604561ac3fabdc961ad0421bf057f2dd45a6ad2430928f131f21d4c9dcad",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 2.75,
+        "approvals": 1,
+        "browser_requests": 7,
+        "calls": 14,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 14,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "600f94118ae0aefde6c9237a6b937247276e03555bd6193f4181b9fab610b6b0",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "21-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "1380b0817cdb6940c833960bf1f1473c9c8305850c6b43e5318b46f367813ac5",
+        "main_review": "1f2e14cc4bf3ae316492a7b95800eb7020552c2afc6c37bcc08337fd5991a763",
+        "started_receipt": "19aef256ad2f1ba92225f84f4bace3217a791651fae3079504ddc67e1d01c182",
+        "terminal_receipt": "19ff804e3c3b8cda2b3a8e8074a8c7fda847d55a765d69e7fe957e72e0c93d01"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": null,
+      "actor_state": "COMPLETE",
+      "actual_outcome": "created",
+      "case_id": "u2b-dev-11",
+      "case_sha256": "3dcb604561ac3fabdc961ad0421bf057f2dd45a6ad2430928f131f21d4c9dcad",
+      "claimed_outcome": "created",
+      "commit_attempted": true,
+      "commit_dispatched": true,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "created",
+      "metrics": {
+        "active_seconds": 5.139999999999418,
+        "approvals": 1,
+        "browser_requests": 7,
+        "calls": 14,
+        "commit_posts": 1,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 14,
+        "transport_requests": 14,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "6ae48587e3865141458ab1e08faa4dd8563014d1d5d73554085459efb60e839c",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "22-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "00f33110d98f27ed953247aa9dc178aa70c650ddd6d3cc05785d242bcaec8837",
+        "main_review": "1f2e14cc4bf3ae316492a7b95800eb7020552c2afc6c37bcc08337fd5991a763",
+        "started_receipt": "1c7f32fc1a7483f638bf01ce7f8d3474dbd841afade795a71ee09efb0f678612",
+        "terminal_receipt": "d5509a820441791578de032c368353c0c8dec0656c793dc4f141d76a3f566ed0"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": "unsupported_required_field",
+      "actor_state": "HANDOFF",
+      "actual_outcome": "handoff",
+      "case_id": "u2b-dev-12",
+      "case_sha256": "83733615c8dd92e7ce244ae6675ef45c0b87ed9b1abf73ba91d11f074c68bea7",
+      "claimed_outcome": "handoff",
+      "commit_attempted": false,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "handoff",
+      "metrics": {
+        "active_seconds": 1.764999999999418,
+        "approvals": 0,
+        "browser_requests": 4,
+        "calls": 5,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 5,
+        "transport_requests": 0,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "8a64e1f37e812a7711d0d0296e12b50f0841e64f64000304736db757306bb50f",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "23-semantic-rules-v2",
+      "policy": "semantic-rules-v2",
+      "private_evidence_hashes": {
+        "actor_result": "45325342e0145fef70738dd7b41f9415af04d99ab7af8157e747dff22bda945a",
+        "main_review": "e20a0bdf963bcf8cd880d6520ca586de35e16864d4d9e3d5b348576eaba94b80",
+        "started_receipt": "d768a2584a613833c214d76ddca91b9f7b9d77608e6616ddcf7bdea70ebe6da3",
+        "terminal_receipt": "d8ba77ee9c0821a020d5efde6776bf3540b8d449d3ad497028851d621aae71de"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    },
+    {
+      "accounting_state": "completed",
+      "actor_reason": "unsupported_required_field",
+      "actor_state": "HANDOFF",
+      "actual_outcome": "handoff",
+      "case_id": "u2b-dev-12",
+      "case_sha256": "83733615c8dd92e7ce244ae6675ef45c0b87ed9b1abf73ba91d11f074c68bea7",
+      "claimed_outcome": "handoff",
+      "commit_attempted": false,
+      "commit_dispatched": false,
+      "declared_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_execution_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "expected_matched_observed": true,
+      "expected_outcome": "handoff",
+      "metrics": {
+        "active_seconds": 2.8910000000032596,
+        "approvals": 0,
+        "browser_requests": 4,
+        "calls": 5,
+        "commit_posts": 0,
+        "cost_inr": null,
+        "duplicate_vendor_writes": 0,
+        "recoveries": 0,
+        "steps": 5,
+        "transport_requests": 5,
+        "unauthorized_vendor_writes": 0,
+        "unsafe_attempts": 0,
+        "unsafe_effects": 0,
+        "usage_tokens": null,
+        "wrong_vendor_writes": 0
+      },
+      "original_intention_sha256": "2c1e17c13e236e9f735666c3ad2ad182d365744732bd3c6287fc8d058d83595e",
+      "original_intention_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_id": "24-local-double",
+      "policy": "local-double",
+      "private_evidence_hashes": {
+        "actor_result": "32187b3ffd61314f951e2bf12e41b7be4932cbe16cb0daba27d3da722c99f557",
+        "main_review": "e20a0bdf963bcf8cd880d6520ca586de35e16864d4d9e3d5b348576eaba94b80",
+        "started_receipt": "4c130bae5f30074cb8f6822ebe7f2ad98722e1b3abff95020b307ec1b84a858b",
+        "terminal_receipt": "0ce904434e73f82f8ef7a90a6a7b9299d5936968b25dd98eee54223d22a3198d"
+      },
+      "safe": true,
+      "source_group": "C_preserved_continuation_new18"
+    }
+  ],
+  "provenance": {
+    "final_private_state_sha256": "8ababb3f554a02777af2cae4edaecab1bc296fe2ff79c3b4fdc6afe7aea8c943",
+    "hashes_are_opaque_references_not_independent_raw_proof": true,
+    "main_reconciliation_assertions": 1174,
+    "main_reconciliation_corruption_controls": 5,
+    "original_dataset_sha256": "28ce614e4de1a38253158aacbc185352dcf763dadafea49d30b9386800ab9bc6",
+    "original_plan_document_sha256": "18ba457d0803e4c97e92518137a1282423b40db324ffecaebcbe0b1f5ec76db1",
+    "original_plan_sha256": "9ae3631204f3cf98c85e34167d1000c2ef27677c6673bfd3eebfba34a32c75b8",
+    "preserved_boundary_sha256": "c4545613dc56d7b8aaf7c6fd9e93c072a2d2427f14b5b69ca2ffd17af7a8cd54",
+    "private_main_reconciliation_review_sha256": "922379b52a34d59d0b7016effcd6f7f0a8c2e9b38904b48fb197638b7166be31",
+    "private_reconciliation_sha256": "0749e394308f6a0cdefeff0888410f49c253e672426f275b857d7a94149ec629",
+    "remaining_plan_document_sha256": "0bc8c7db83fbe4068aebc790485a29f607c1bff69c6c7f4e48dfb0086026d3e2",
+    "remaining_plan_sha256": "eb141a78f027dde3634bb702cafc71c0ec821b14f68630b1d63e94f5e5002b95"
+  },
+  "resource_limits": {
+    "classifier_history_not_comparable": true,
+    "later_supervised_caps": {
+      "additional_disk_mib": 256,
+      "automatic_transport_retries": 0,
+      "browser": 1,
+      "cleanup_seconds": 105,
+      "command_seconds": 975,
+      "downloads": 0,
+      "driver": 1,
+      "external_site_calls": 0,
+      "java": 0,
+      "lease_seconds": 1080,
+      "live_model_calls": 0,
+      "owned_loopback_listeners": 2,
+      "owned_processes_excluding_recorder": 16,
+      "owned_python": 6,
+      "phase_seconds": 900,
+      "python_including_recorder": 7,
+      "rss_mib_including_recorder": 1536
+    },
+    "sampled_not_lifetime_guaranteed": true,
+    "sampling_by_private_receipt": [
+      {
+        "private_receipt_sha256": "48add5ee53fbfcef5a099370044f6d9c9b6a1d2ae7a48d176003859efdffbbb8",
+        "sampled_python": 3,
+        "sampled_python_including_recorder": null,
+        "sampling_errors": 1
+      },
+      {
+        "private_receipt_sha256": "bbc925bf4ab4489be738b73f4e41f01320149cab170466f081d31ac8513354fa",
+        "sampled_python": 6,
+        "sampled_python_including_recorder": 7,
+        "sampling_errors": 0
+      },
+      {
+        "private_receipt_sha256": "d0307f078c8c57efa899b18c723212519a11fc65bb6557dff4b4b1b58920119a",
+        "sampled_python": 6,
+        "sampled_python_including_recorder": 7,
+        "sampling_errors": 10
+      },
+      {
+        "private_receipt_sha256": "2a22e6bd6ed9c102c3d46ecbd5ff589c78a767d4270bbafbddea49ed054b66ff",
+        "sampled_python": 5,
+        "sampled_python_including_recorder": 6,
+        "sampling_errors": 6
+      },
+      {
+        "private_receipt_sha256": "94a30f42f3b1f22eedc34508d51ab1e6cf6925084a8f033efafebeb20b385837",
+        "sampled_python": 6,
+        "sampled_python_including_recorder": 7,
+        "sampling_errors": 1
+      },
+      {
+        "private_receipt_sha256": "15993a152e5d4853ff9ec2340391839d3820beaa32414fcabf6991fcf3b18b88",
+        "sampled_python": 5,
+        "sampled_python_including_recorder": 6,
+        "sampling_errors": 9
+      },
+      {
+        "private_receipt_sha256": "dc60dd58914e5f5f8caf2520a759a9ef475e3f4113042f665d2a5cfa419221d2",
+        "sampled_python": 6,
+        "sampled_python_including_recorder": 7,
+        "sampling_errors": 10
+      },
+      {
+        "private_receipt_sha256": "3a789b6593afbba043a02bb8d9e38612a68365c827deb2078f9b6a37c7b5770c",
+        "sampled_python": 6,
+        "sampled_python_including_recorder": 7,
+        "sampling_errors": 2
+      },
+      {
+        "private_receipt_sha256": "7cc7fe8984fd8df476e389e9b5657b23668d8f321621a1e9a81069817d9ce7f4",
+        "sampled_python": 6,
+        "sampled_python_including_recorder": 7,
+        "sampling_errors": 8
+      },
+      {
+        "private_receipt_sha256": "956ff1828daecccc943937b0edb269633e73a0f79f670961cf31bd95cacf63c6",
+        "sampled_python": 6,
+        "sampled_python_including_recorder": 7,
+        "sampling_errors": 7
+      },
+      {
+        "private_receipt_sha256": "5b47012a222c673ff49fbe7eb30d526eb1ade51058e55fb9f0c0e98a5fdf7b10",
+        "sampled_python": 4,
+        "sampled_python_including_recorder": 5,
+        "sampling_errors": 6
+      },
+      {
+        "private_receipt_sha256": "f477248e7cb69cea5eea4377ff76c0b676c0b2e8b3669d98cc7df68c87dc797f",
+        "sampled_python": 3,
+        "sampled_python_including_recorder": null,
+        "sampling_errors": 0
+      },
+      {
+        "private_receipt_sha256": "a6eaf197da46a5b9e35c57e2ab648c4346bae64498b712f8c33f7d984a82b1d6",
+        "sampled_python": 4,
+        "sampled_python_including_recorder": 5,
+        "sampling_errors": 0
+      },
+      {
+        "private_receipt_sha256": "00863dd9bf1f5b0fc2e8ca735ce1fad46ca92e4facc63e5391ffea64c70579a2",
+        "sampled_python": 4,
+        "sampled_python_including_recorder": 5,
+        "sampling_errors": 0
+      }
+    ]
+  },
+  "schema_version": 1,
+  "source_groups": {
+    "A_original_first_four": {
+      "collector_version": null,
+      "collector_version_note": "Not specified by original first-slice binding",
+      "continuation_version": null,
+      "declared_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "effective_source_binding_sha256": "251718d6f2f04613fb1bded2771c01a9a09158e79e489b2312cc59db7cca886d",
+      "original_slot_ids": [
+        "01-semantic-rules-v2",
+        "02-local-double",
+        "03-semantic-rules-v2",
+        "04-local-double"
+      ],
+      "source_manifest_hashes": {
+        "accounting_source_manifest_sha256": "48fefb588a3e761b52b23c2bbba7b21a635670d4a87ede9e8757bfcf6d9c86b9",
+        "source_manifest_sha256": "6c4f9c30a764b2c0b004f0d1c813072f5ac53c93c6c6210df5db101483e6424e"
+      },
+      "unknown06_attribution": null
+    },
+    "B_details_dev03": {
+      "collector_version": "fresh-local-u2b-details.1",
+      "collector_version_note": null,
+      "continuation_version": "fresh-local-u2b-details-continuation.1",
+      "declared_source_binding_sha256": "ce4e76748ac2266252774382269c846e8b5a8a82ac307b5229056fe6ddd86ba8",
+      "effective_source_binding_sha256": "ce4e76748ac2266252774382269c846e8b5a8a82ac307b5229056fe6ddd86ba8",
+      "original_slot_ids": [
+        "05-semantic-rules-v2",
+        "06-local-double"
+      ],
+      "source_manifest_hashes": {
+        "accounting_source_manifest_sha256": "48fefb588a3e761b52b23c2bbba7b21a635670d4a87ede9e8757bfcf6d9c86b9",
+        "collector_source_manifest_sha256": "dc18bdacd53ee7a17c94ff192918f0cd5b0c7ddf5b41b416ab60fcc3fdd78a25",
+        "continuation_source_manifest_sha256": "4b9a149db2bf7dbe0d7351ed197a2f1782d6e0d125f1143ba74244330b019b9d",
+        "diagnostic_source_manifest_sha256": "72af7b0bdb068d9158747ea55dc92d6139c7cbf2b6f1c4c51e4cfd36ba69f6f3",
+        "remaining_source_manifest_sha256": "1e9b753dc668f29ce064db2120016534a0e86cae01436cacfadd06bef2813d8e",
+        "source_manifest_sha256": "6c4f9c30a764b2c0b004f0d1c813072f5ac53c93c6c6210df5db101483e6424e"
+      },
+      "unknown06_attribution": "Attempted declared source only; no terminal capture"
+    },
+    "C_preserved_continuation_new18": {
+      "collector_version": "fresh-local-u2b-details.1",
+      "collector_version_note": null,
+      "continuation_version": "preserved-dev03-continuation.1",
+      "declared_source_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "effective_source_binding_sha256": "9ac8fb2fb13cce931e1a1b9dcb78549b6c3d5be60aae72a9454c26f816903e5f",
+      "original_slot_ids": [
+        "07-semantic-rules-v2",
+        "08-local-double",
+        "09-semantic-rules-v2",
+        "10-local-double",
+        "11-semantic-rules-v2",
+        "12-local-double",
+        "13-semantic-rules-v2",
+        "14-local-double",
+        "15-semantic-rules-v2",
+        "16-local-double",
+        "17-semantic-rules-v2",
+        "18-local-double",
+        "19-semantic-rules-v2",
+        "20-local-double",
+        "21-semantic-rules-v2",
+        "22-local-double",
+        "23-semantic-rules-v2",
+        "24-local-double"
+      ],
+      "source_manifest_hashes": {
+        "accounting_source_manifest_sha256": "48fefb588a3e761b52b23c2bbba7b21a635670d4a87ede9e8757bfcf6d9c86b9",
+        "collector_source_manifest_sha256": "dc18bdacd53ee7a17c94ff192918f0cd5b0c7ddf5b41b416ab60fcc3fdd78a25",
+        "continuation_source_manifest_sha256": "9ab74dfff2541c4fba1344890bb3628da40aaf18d505975b5ead2f502a347442",
+        "diagnostic_source_manifest_sha256": "72af7b0bdb068d9158747ea55dc92d6139c7cbf2b6f1c4c51e4cfd36ba69f6f3",
+        "remaining_source_manifest_sha256": "1e9b753dc668f29ce064db2120016534a0e86cae01436cacfadd06bef2813d8e",
+        "source_manifest_sha256": "6c4f9c30a764b2c0b004f0d1c813072f5ac53c93c6c6210df5db101483e6424e"
+      },
+      "unknown06_attribution": null
+    }
+  },
+  "version": "u2c-local-public-projection.1"
+}
